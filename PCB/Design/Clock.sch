@@ -4544,6 +4544,41 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="supply2">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DGND" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4639,6 +4674,19 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R4" library="resistor" deviceset="R-EU_" device="R0402"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0402"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="R0402"/>
+<part name="SUPPLY1" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY2" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY3" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY4" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY5" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY6" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY7" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY8" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY9" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY10" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY11" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY12" library="supply2" deviceset="DGND" device=""/>
+<part name="SUPPLY13" library="supply2" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4660,106 +4708,119 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="419.1" y="396.24" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="454.66" y="396.24" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED4" gate="G$1" x="426.72" y="363.22" smashed="yes" rot="MR0">
-<attribute name="NAME" x="416.56" y="373.38" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="449.58" y="373.38" size="1.778" layer="96" rot="MR0"/>
+<instance part="LED4" gate="G$1" x="429.26" y="363.22" smashed="yes" rot="MR0">
+<attribute name="NAME" x="419.1" y="373.38" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="452.12" y="373.38" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="LED5" gate="G$1" x="429.26" y="340.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="416.56" y="350.52" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="449.58" y="350.52" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED6" gate="G$1" x="584.2" y="381" smashed="yes" rot="MR180">
-<attribute name="NAME" x="571.5" y="391.16" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="591.82" y="391.16" size="1.778" layer="96" rot="MR180"/>
+<instance part="LED6" gate="G$1" x="429.26" y="307.34" smashed="yes" rot="MR0">
+<attribute name="NAME" x="441.96" y="297.18" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="421.64" y="297.18" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED7" gate="G$1" x="584.2" y="358.14" smashed="yes" rot="MR180">
-<attribute name="NAME" x="571.5" y="368.3" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="591.82" y="368.3" size="1.778" layer="96" rot="MR180"/>
+<instance part="LED7" gate="G$1" x="429.26" y="284.48" smashed="yes" rot="MR0">
+<attribute name="NAME" x="441.96" y="274.32" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="421.64" y="274.32" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED8" gate="G$1" x="584.2" y="335.28" smashed="yes" rot="MR180">
-<attribute name="NAME" x="571.5" y="345.44" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="591.82" y="345.44" size="1.778" layer="96" rot="MR180"/>
+<instance part="LED8" gate="G$1" x="429.26" y="261.62" smashed="yes" rot="MR0">
+<attribute name="NAME" x="441.96" y="251.46" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="421.64" y="251.46" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED9" gate="G$1" x="584.2" y="312.42" smashed="yes" rot="MR180">
-<attribute name="NAME" x="571.5" y="322.58" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="591.82" y="322.58" size="1.778" layer="96" rot="MR180"/>
+<instance part="LED9" gate="G$1" x="429.26" y="238.76" smashed="yes" rot="MR0">
+<attribute name="NAME" x="441.96" y="228.6" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="421.64" y="228.6" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED10" gate="G$1" x="584.2" y="289.56" smashed="yes" rot="MR180">
-<attribute name="NAME" x="571.5" y="299.72" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="591.82" y="299.72" size="1.778" layer="96" rot="MR180"/>
+<instance part="LED10" gate="G$1" x="429.26" y="215.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="441.96" y="205.74" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="421.64" y="205.74" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED11" gate="G$1" x="314.96" y="210.82"/>
-<instance part="LED12" gate="G$1" x="383.54" y="210.82"/>
-<instance part="LED13" gate="G$1" x="452.12" y="210.82"/>
-<instance part="LED14" gate="G$1" x="513.08" y="210.82"/>
-<instance part="LED15" gate="G$1" x="576.58" y="210.82"/>
-<instance part="LED16" gate="G$1" x="314.96" y="172.72"/>
-<instance part="LED17" gate="G$1" x="383.54" y="172.72"/>
-<instance part="LED18" gate="G$1" x="452.12" y="172.72"/>
-<instance part="LED19" gate="G$1" x="513.08" y="172.72"/>
-<instance part="LED20" gate="G$1" x="576.58" y="172.72"/>
-<instance part="LED21" gate="G$1" x="1247.14" y="485.14"/>
-<instance part="LED22" gate="G$1" x="1305.56" y="485.14"/>
-<instance part="LED23" gate="G$1" x="1363.98" y="485.14"/>
-<instance part="LED24" gate="G$1" x="1422.4" y="485.14"/>
-<instance part="LED25" gate="G$1" x="1013.46" y="449.58"/>
-<instance part="LED26" gate="G$1" x="1071.88" y="449.58"/>
-<instance part="LED27" gate="G$1" x="1130.3" y="449.58"/>
-<instance part="LED28" gate="G$1" x="1188.72" y="449.58"/>
-<instance part="LED29" gate="G$1" x="1247.14" y="449.58"/>
-<instance part="LED30" gate="G$1" x="1305.56" y="449.58"/>
-<instance part="LED31" gate="G$1" x="1363.98" y="449.58"/>
-<instance part="LED32" gate="G$1" x="1422.4" y="449.58"/>
-<instance part="LED33" gate="G$1" x="1013.46" y="414.02"/>
-<instance part="LED34" gate="G$1" x="1071.88" y="414.02"/>
-<instance part="LED35" gate="G$1" x="1130.3" y="414.02"/>
-<instance part="LED36" gate="G$1" x="1188.72" y="414.02"/>
-<instance part="LED37" gate="G$1" x="1247.14" y="414.02"/>
-<instance part="LED38" gate="G$1" x="1305.56" y="414.02"/>
-<instance part="LED39" gate="G$1" x="1363.98" y="414.02"/>
-<instance part="LED40" gate="G$1" x="1422.4" y="414.02"/>
-<instance part="LED41" gate="G$1" x="1013.46" y="378.46"/>
-<instance part="LED42" gate="G$1" x="1071.88" y="378.46"/>
-<instance part="LED43" gate="G$1" x="1130.3" y="378.46"/>
-<instance part="LED44" gate="G$1" x="1188.72" y="378.46"/>
-<instance part="LED45" gate="G$1" x="1247.14" y="378.46"/>
-<instance part="LED46" gate="G$1" x="1305.56" y="378.46"/>
-<instance part="LED47" gate="G$1" x="1363.98" y="378.46"/>
-<instance part="LED48" gate="G$1" x="1422.4" y="378.46"/>
-<instance part="LED49" gate="G$1" x="1013.46" y="342.9"/>
-<instance part="LED50" gate="G$1" x="1071.88" y="342.9"/>
-<instance part="LED51" gate="G$1" x="1130.3" y="342.9"/>
-<instance part="LED52" gate="G$1" x="1188.72" y="342.9"/>
-<instance part="LED53" gate="G$1" x="1247.14" y="342.9"/>
-<instance part="LED54" gate="G$1" x="1305.56" y="342.9"/>
-<instance part="LED55" gate="G$1" x="1363.98" y="342.9"/>
-<instance part="LED56" gate="G$1" x="1422.4" y="342.9"/>
-<instance part="LED57" gate="G$1" x="1013.46" y="307.34"/>
-<instance part="LED58" gate="G$1" x="1071.88" y="307.34"/>
-<instance part="LED59" gate="G$1" x="1130.3" y="307.34"/>
-<instance part="LED60" gate="G$1" x="1188.72" y="307.34"/>
+<instance part="LED11" gate="G$1" x="429.26" y="182.88" rot="MR0"/>
+<instance part="LED12" gate="G$1" x="429.26" y="160.02" rot="MR0"/>
+<instance part="LED13" gate="G$1" x="429.26" y="137.16" rot="MR0"/>
+<instance part="LED14" gate="G$1" x="429.26" y="114.3" rot="MR0"/>
+<instance part="LED15" gate="G$1" x="429.26" y="91.44" rot="MR0"/>
+<instance part="LED16" gate="G$1" x="599.44" y="431.8" rot="MR0"/>
+<instance part="LED17" gate="G$1" x="599.44" y="408.94" rot="MR0"/>
+<instance part="LED18" gate="G$1" x="599.44" y="386.08" rot="MR0"/>
+<instance part="LED19" gate="G$1" x="599.44" y="363.22" rot="MR0"/>
+<instance part="LED20" gate="G$1" x="599.44" y="340.36" rot="MR0"/>
+<instance part="LED21" gate="G$1" x="599.44" y="307.34" rot="MR0"/>
+<instance part="LED22" gate="G$1" x="599.44" y="284.48" rot="MR0"/>
+<instance part="LED23" gate="G$1" x="599.44" y="261.62" rot="MR0"/>
+<instance part="LED24" gate="G$1" x="599.44" y="238.76" rot="MR0"/>
+<instance part="LED25" gate="G$1" x="599.44" y="215.9" rot="MR0"/>
+<instance part="LED26" gate="G$1" x="599.44" y="182.88" rot="MR0"/>
+<instance part="LED27" gate="G$1" x="599.44" y="160.02" rot="MR0"/>
+<instance part="LED28" gate="G$1" x="599.44" y="137.16" rot="MR0"/>
+<instance part="LED29" gate="G$1" x="599.44" y="114.3" rot="MR0"/>
+<instance part="LED30" gate="G$1" x="599.44" y="91.44" rot="MR0"/>
+<instance part="LED31" gate="G$1" x="792.48" y="429.26" rot="MR0"/>
+<instance part="LED32" gate="G$1" x="792.48" y="406.4" rot="MR0"/>
+<instance part="LED33" gate="G$1" x="792.48" y="383.54" rot="MR0"/>
+<instance part="LED34" gate="G$1" x="792.48" y="360.68" rot="MR0"/>
+<instance part="LED35" gate="G$1" x="792.48" y="337.82" rot="MR0"/>
+<instance part="LED36" gate="G$1" x="792.48" y="304.8" rot="MR0"/>
+<instance part="LED37" gate="G$1" x="792.48" y="281.94" rot="MR0"/>
+<instance part="LED38" gate="G$1" x="792.48" y="259.08" rot="MR0"/>
+<instance part="LED39" gate="G$1" x="792.48" y="236.22" rot="MR0"/>
+<instance part="LED40" gate="G$1" x="792.48" y="213.36" rot="MR0"/>
+<instance part="LED41" gate="G$1" x="795.02" y="180.34" rot="MR0"/>
+<instance part="LED42" gate="G$1" x="795.02" y="157.48" rot="MR0"/>
+<instance part="LED43" gate="G$1" x="795.02" y="134.62" rot="MR0"/>
+<instance part="LED44" gate="G$1" x="795.02" y="111.76" rot="MR0"/>
+<instance part="LED45" gate="G$1" x="795.02" y="88.9" rot="MR0"/>
+<instance part="LED46" gate="G$1" x="942.34" y="429.26" rot="MR0"/>
+<instance part="LED47" gate="G$1" x="942.34" y="406.4" rot="MR0"/>
+<instance part="LED48" gate="G$1" x="942.34" y="383.54" rot="MR0"/>
+<instance part="LED49" gate="G$1" x="942.34" y="360.68" rot="MR0"/>
+<instance part="LED50" gate="G$1" x="942.34" y="337.82" rot="MR0"/>
+<instance part="LED51" gate="G$1" x="942.34" y="304.8" rot="MR0"/>
+<instance part="LED52" gate="G$1" x="942.34" y="281.94" rot="MR0"/>
+<instance part="LED53" gate="G$1" x="942.34" y="259.08" rot="MR0"/>
+<instance part="LED54" gate="G$1" x="942.34" y="236.22" rot="MR0"/>
+<instance part="LED55" gate="G$1" x="942.34" y="213.36" rot="MR0"/>
+<instance part="LED56" gate="G$1" x="942.34" y="180.34" rot="MR0"/>
+<instance part="LED57" gate="G$1" x="942.34" y="157.48" rot="MR0"/>
+<instance part="LED58" gate="G$1" x="942.34" y="134.62" rot="MR0"/>
+<instance part="LED59" gate="G$1" x="942.34" y="111.76" rot="MR0"/>
+<instance part="LED60" gate="G$1" x="942.34" y="88.9" rot="MR0"/>
 <instance part="LED61" gate="G$1" x="1247.14" y="307.34"/>
 <instance part="LED62" gate="G$1" x="1305.56" y="307.34"/>
 <instance part="LED63" gate="G$1" x="1363.98" y="307.34"/>
 <instance part="LED64" gate="G$1" x="1422.4" y="307.34"/>
 <instance part="U2" gate="G$1" x="368.3" y="388.62"/>
-<instance part="U3" gate="G$1" x="457.2" y="81.28"/>
-<instance part="U4" gate="G$1" x="553.72" y="86.36"/>
-<instance part="U5" gate="G$1" x="355.6" y="-17.78"/>
-<instance part="U6" gate="G$1" x="452.12" y="-12.7"/>
-<instance part="U7" gate="G$1" x="553.72" y="-2.54"/>
-<instance part="U8" gate="G$1" x="327.66" y="-111.76"/>
-<instance part="U9" gate="G$1" x="474.98" y="-99.06"/>
-<instance part="U10" gate="G$1" x="599.44" y="-88.9"/>
-<instance part="U11" gate="G$1" x="360.68" y="-198.12"/>
-<instance part="U12" gate="G$1" x="485.14" y="-195.58"/>
-<instance part="U13" gate="G$1" x="647.7" y="-182.88"/>
+<instance part="U3" gate="G$1" x="368.3" y="264.16"/>
+<instance part="U4" gate="G$1" x="734.06" y="137.16"/>
+<instance part="U5" gate="G$1" x="368.3" y="139.7"/>
+<instance part="U6" gate="G$1" x="538.48" y="139.7"/>
+<instance part="U7" gate="G$1" x="538.48" y="264.16"/>
+<instance part="U8" gate="G$1" x="731.52" y="386.08"/>
+<instance part="U9" gate="G$1" x="881.38" y="261.62"/>
+<instance part="U10" gate="G$1" x="881.38" y="137.16"/>
+<instance part="U11" gate="G$1" x="881.38" y="386.08"/>
+<instance part="U12" gate="G$1" x="538.48" y="388.62"/>
+<instance part="U13" gate="G$1" x="731.52" y="261.62"/>
 <instance part="R1" gate="G$1" x="457.2" y="436.88"/>
 <instance part="R2" gate="G$1" x="457.2" y="431.8"/>
 <instance part="R3" gate="G$1" x="457.2" y="426.72"/>
 <instance part="R4" gate="G$1" x="472.44" y="436.88"/>
 <instance part="R5" gate="G$1" x="472.44" y="429.26"/>
 <instance part="R6" gate="G$1" x="472.44" y="421.64"/>
+<instance part="SUPPLY1" gate="G$1" x="50.8" y="0"/>
+<instance part="SUPPLY2" gate="G$1" x="345.44" y="114.3"/>
+<instance part="SUPPLY3" gate="G$1" x="345.44" y="238.76"/>
+<instance part="SUPPLY4" gate="G$1" x="345.44" y="363.22"/>
+<instance part="SUPPLY5" gate="G$1" x="515.62" y="363.22"/>
+<instance part="SUPPLY6" gate="G$1" x="708.66" y="360.68"/>
+<instance part="SUPPLY7" gate="G$1" x="515.62" y="238.76"/>
+<instance part="SUPPLY8" gate="G$1" x="708.66" y="236.22"/>
+<instance part="SUPPLY9" gate="G$1" x="711.2" y="111.76"/>
+<instance part="SUPPLY10" gate="G$1" x="515.62" y="114.3"/>
+<instance part="SUPPLY11" gate="G$1" x="858.52" y="111.76"/>
+<instance part="SUPPLY12" gate="G$1" x="858.52" y="236.22"/>
+<instance part="SUPPLY13" gate="G$1" x="858.52" y="360.68"/>
 </instances>
 <busses>
 </busses>
@@ -4924,7 +4985,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="388.62" y1="381" x2="403.86" y2="381" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="381" x2="403.86" y2="368.3" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="RED_C"/>
-<wire x1="403.86" y1="368.3" x2="406.4" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="368.3" x2="408.94" y2="368.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -4933,7 +4994,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U2" gate="G$1" pin="PWM10"/>
 <wire x1="401.32" y1="378.46" x2="388.62" y2="378.46" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="GREEN_C"/>
-<wire x1="401.32" y1="363.22" x2="406.4" y2="363.22" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="363.22" x2="408.94" y2="363.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -4942,7 +5003,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="388.62" y1="375.92" x2="398.78" y2="375.92" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="375.92" x2="398.78" y2="358.14" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="BLUE_C"/>
-<wire x1="398.78" y1="358.14" x2="406.4" y2="358.14" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="358.14" x2="408.94" y2="358.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -4977,6 +5038,1531 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="LED3" gate="G$1" pin="GREEN_C"/>
 <pinref part="U2" gate="G$1" pin="PWM7"/>
 <wire x1="408.94" y1="386.08" x2="388.62" y2="386.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="406.4" y1="266.7" x2="406.4" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="264.16" x2="388.62" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="266.7" x2="408.94" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM6"/>
+<pinref part="LED8" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<wire x1="388.62" y1="259.08" x2="406.4" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="259.08" x2="406.4" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="256.54" x2="408.94" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM8"/>
+<pinref part="LED8" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<wire x1="388.62" y1="266.7" x2="403.86" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="266.7" x2="403.86" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="279.4" x2="408.94" y2="279.4" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM5"/>
+<pinref part="LED7" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<wire x1="401.32" y1="284.48" x2="401.32" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="269.24" x2="388.62" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="284.48" x2="401.32" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM4"/>
+<pinref part="LED7" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<wire x1="388.62" y1="271.78" x2="398.78" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="271.78" x2="398.78" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="289.56" x2="408.94" y2="289.56" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM3"/>
+<pinref part="LED7" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<wire x1="396.24" y1="302.26" x2="396.24" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="274.32" x2="388.62" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="302.26" x2="408.94" y2="302.26" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM2"/>
+<pinref part="LED6" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<wire x1="388.62" y1="276.86" x2="393.7" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="276.86" x2="393.7" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="307.34" x2="393.7" y2="307.34" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM1"/>
+<pinref part="LED6" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<wire x1="391.16" y1="312.42" x2="391.16" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="279.4" x2="388.62" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="312.42" x2="408.94" y2="312.42" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM0"/>
+<pinref part="LED6" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<wire x1="388.62" y1="256.54" x2="403.86" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="256.54" x2="403.86" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="243.84" x2="408.94" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM9"/>
+<pinref part="LED9" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<wire x1="401.32" y1="238.76" x2="401.32" y2="254" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="254" x2="388.62" y2="254" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="238.76" x2="408.94" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM10"/>
+<pinref part="LED9" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<wire x1="388.62" y1="251.46" x2="398.78" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="251.46" x2="398.78" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="233.68" x2="408.94" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM11"/>
+<pinref part="LED9" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<wire x1="388.62" y1="248.92" x2="396.24" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="248.92" x2="396.24" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="220.98" x2="408.94" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM12"/>
+<pinref part="LED10" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<wire x1="393.7" y1="215.9" x2="393.7" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="246.38" x2="388.62" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="215.9" x2="408.94" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM13"/>
+<pinref part="LED10" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<wire x1="388.62" y1="243.84" x2="391.16" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="243.84" x2="391.16" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="210.82" x2="408.94" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="PWM14"/>
+<pinref part="LED10" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<wire x1="406.4" y1="142.24" x2="406.4" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="139.7" x2="388.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="142.24" x2="408.94" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM6"/>
+<pinref part="LED13" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<wire x1="388.62" y1="134.62" x2="406.4" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="134.62" x2="406.4" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="132.08" x2="408.94" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM8"/>
+<pinref part="LED13" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<wire x1="388.62" y1="142.24" x2="403.86" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="142.24" x2="403.86" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="154.94" x2="408.94" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM5"/>
+<pinref part="LED12" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<wire x1="401.32" y1="160.02" x2="401.32" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="144.78" x2="388.62" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="160.02" x2="401.32" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM4"/>
+<pinref part="LED12" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<wire x1="388.62" y1="147.32" x2="398.78" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="147.32" x2="398.78" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="165.1" x2="408.94" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM3"/>
+<pinref part="LED12" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<wire x1="396.24" y1="177.8" x2="396.24" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="149.86" x2="388.62" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="177.8" x2="408.94" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM2"/>
+<pinref part="LED11" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<wire x1="388.62" y1="152.4" x2="393.7" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="152.4" x2="393.7" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="182.88" x2="393.7" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM1"/>
+<pinref part="LED11" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<wire x1="391.16" y1="187.96" x2="391.16" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="154.94" x2="388.62" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="187.96" x2="408.94" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM0"/>
+<pinref part="LED11" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<wire x1="388.62" y1="132.08" x2="403.86" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="132.08" x2="403.86" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="119.38" x2="408.94" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM9"/>
+<pinref part="LED14" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<wire x1="401.32" y1="114.3" x2="401.32" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="129.54" x2="388.62" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="114.3" x2="408.94" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM10"/>
+<pinref part="LED14" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<wire x1="388.62" y1="127" x2="398.78" y2="127" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="127" x2="398.78" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="109.22" x2="408.94" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM11"/>
+<pinref part="LED14" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<wire x1="388.62" y1="124.46" x2="396.24" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="124.46" x2="396.24" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="96.52" x2="408.94" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM12"/>
+<pinref part="LED15" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<wire x1="393.7" y1="91.44" x2="393.7" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="121.92" x2="388.62" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="91.44" x2="408.94" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM13"/>
+<pinref part="LED15" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<wire x1="388.62" y1="119.38" x2="391.16" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="119.38" x2="391.16" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="86.36" x2="408.94" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="PWM14"/>
+<pinref part="LED15" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<wire x1="576.58" y1="391.16" x2="576.58" y2="388.62" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="388.62" x2="558.8" y2="388.62" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="391.16" x2="579.12" y2="391.16" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM6"/>
+<pinref part="LED18" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<wire x1="558.8" y1="383.54" x2="576.58" y2="383.54" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="383.54" x2="576.58" y2="381" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="381" x2="579.12" y2="381" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM8"/>
+<pinref part="LED18" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<wire x1="558.8" y1="391.16" x2="574.04" y2="391.16" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="391.16" x2="574.04" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="403.86" x2="579.12" y2="403.86" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM5"/>
+<pinref part="LED17" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<wire x1="571.5" y1="408.94" x2="571.5" y2="393.7" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="393.7" x2="558.8" y2="393.7" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="408.94" x2="571.5" y2="408.94" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM4"/>
+<pinref part="LED17" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<wire x1="558.8" y1="396.24" x2="568.96" y2="396.24" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="396.24" x2="568.96" y2="414.02" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="414.02" x2="579.12" y2="414.02" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM3"/>
+<pinref part="LED17" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$53" class="0">
+<segment>
+<wire x1="566.42" y1="426.72" x2="566.42" y2="398.78" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="398.78" x2="558.8" y2="398.78" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="426.72" x2="579.12" y2="426.72" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM2"/>
+<pinref part="LED16" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$54" class="0">
+<segment>
+<wire x1="558.8" y1="401.32" x2="563.88" y2="401.32" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="401.32" x2="563.88" y2="431.8" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="431.8" x2="563.88" y2="431.8" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM1"/>
+<pinref part="LED16" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<wire x1="561.34" y1="436.88" x2="561.34" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="403.86" x2="558.8" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="436.88" x2="579.12" y2="436.88" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM0"/>
+<pinref part="LED16" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<wire x1="558.8" y1="381" x2="574.04" y2="381" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="381" x2="574.04" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="368.3" x2="579.12" y2="368.3" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM9"/>
+<pinref part="LED19" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<wire x1="571.5" y1="363.22" x2="571.5" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="378.46" x2="558.8" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="363.22" x2="579.12" y2="363.22" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM10"/>
+<pinref part="LED19" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$58" class="0">
+<segment>
+<wire x1="558.8" y1="375.92" x2="568.96" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="375.92" x2="568.96" y2="358.14" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="358.14" x2="579.12" y2="358.14" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM11"/>
+<pinref part="LED19" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<wire x1="558.8" y1="373.38" x2="566.42" y2="373.38" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="373.38" x2="566.42" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="345.44" x2="579.12" y2="345.44" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM12"/>
+<pinref part="LED20" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<wire x1="563.88" y1="340.36" x2="563.88" y2="370.84" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="370.84" x2="558.8" y2="370.84" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="340.36" x2="579.12" y2="340.36" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM13"/>
+<pinref part="LED20" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<wire x1="558.8" y1="368.3" x2="561.34" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="368.3" x2="561.34" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="335.28" x2="579.12" y2="335.28" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="PWM14"/>
+<pinref part="LED20" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<wire x1="576.58" y1="266.7" x2="576.58" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="264.16" x2="558.8" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="266.7" x2="579.12" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM6"/>
+<pinref part="LED23" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$63" class="0">
+<segment>
+<wire x1="558.8" y1="259.08" x2="576.58" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="259.08" x2="576.58" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="256.54" x2="579.12" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM8"/>
+<pinref part="LED23" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<wire x1="558.8" y1="266.7" x2="574.04" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="266.7" x2="574.04" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="279.4" x2="579.12" y2="279.4" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM5"/>
+<pinref part="LED22" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<wire x1="571.5" y1="284.48" x2="571.5" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="269.24" x2="558.8" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="284.48" x2="571.5" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM4"/>
+<pinref part="LED22" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<wire x1="558.8" y1="271.78" x2="568.96" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="271.78" x2="568.96" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="289.56" x2="579.12" y2="289.56" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM3"/>
+<pinref part="LED22" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$67" class="0">
+<segment>
+<wire x1="566.42" y1="302.26" x2="566.42" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="274.32" x2="558.8" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="302.26" x2="579.12" y2="302.26" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM2"/>
+<pinref part="LED21" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<wire x1="558.8" y1="276.86" x2="563.88" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="276.86" x2="563.88" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="307.34" x2="563.88" y2="307.34" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM1"/>
+<pinref part="LED21" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<wire x1="561.34" y1="312.42" x2="561.34" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="279.4" x2="558.8" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="312.42" x2="579.12" y2="312.42" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM0"/>
+<pinref part="LED21" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<wire x1="558.8" y1="256.54" x2="574.04" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="256.54" x2="574.04" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="243.84" x2="579.12" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM9"/>
+<pinref part="LED24" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$71" class="0">
+<segment>
+<wire x1="571.5" y1="238.76" x2="571.5" y2="254" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="254" x2="558.8" y2="254" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="238.76" x2="579.12" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM10"/>
+<pinref part="LED24" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<wire x1="558.8" y1="251.46" x2="568.96" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="251.46" x2="568.96" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="233.68" x2="579.12" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM11"/>
+<pinref part="LED24" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$73" class="0">
+<segment>
+<wire x1="558.8" y1="248.92" x2="566.42" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="248.92" x2="566.42" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="220.98" x2="579.12" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM12"/>
+<pinref part="LED25" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$74" class="0">
+<segment>
+<wire x1="563.88" y1="215.9" x2="563.88" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="246.38" x2="558.8" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="215.9" x2="579.12" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM13"/>
+<pinref part="LED25" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$75" class="0">
+<segment>
+<wire x1="558.8" y1="243.84" x2="561.34" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="243.84" x2="561.34" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="210.82" x2="579.12" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="PWM14"/>
+<pinref part="LED25" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<wire x1="576.58" y1="142.24" x2="576.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="139.7" x2="558.8" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="142.24" x2="579.12" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM6"/>
+<pinref part="LED28" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$77" class="0">
+<segment>
+<wire x1="558.8" y1="134.62" x2="576.58" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="134.62" x2="576.58" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="132.08" x2="579.12" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM8"/>
+<pinref part="LED28" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$78" class="0">
+<segment>
+<wire x1="558.8" y1="142.24" x2="574.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="142.24" x2="574.04" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="154.94" x2="579.12" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM5"/>
+<pinref part="LED27" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$79" class="0">
+<segment>
+<wire x1="571.5" y1="160.02" x2="571.5" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="144.78" x2="558.8" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="160.02" x2="571.5" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM4"/>
+<pinref part="LED27" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<wire x1="558.8" y1="147.32" x2="568.96" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="147.32" x2="568.96" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="165.1" x2="579.12" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM3"/>
+<pinref part="LED27" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$81" class="0">
+<segment>
+<wire x1="566.42" y1="177.8" x2="566.42" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="149.86" x2="558.8" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="177.8" x2="579.12" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM2"/>
+<pinref part="LED26" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$82" class="0">
+<segment>
+<wire x1="558.8" y1="152.4" x2="563.88" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="152.4" x2="563.88" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="579.12" y1="182.88" x2="563.88" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM1"/>
+<pinref part="LED26" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<wire x1="561.34" y1="187.96" x2="561.34" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="154.94" x2="558.8" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="187.96" x2="579.12" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM0"/>
+<pinref part="LED26" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<wire x1="558.8" y1="132.08" x2="574.04" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="132.08" x2="574.04" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="574.04" y1="119.38" x2="579.12" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM9"/>
+<pinref part="LED29" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$85" class="0">
+<segment>
+<wire x1="571.5" y1="114.3" x2="571.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="129.54" x2="558.8" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="571.5" y1="114.3" x2="579.12" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM10"/>
+<pinref part="LED29" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$86" class="0">
+<segment>
+<wire x1="558.8" y1="127" x2="568.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="127" x2="568.96" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="568.96" y1="109.22" x2="579.12" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM11"/>
+<pinref part="LED29" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$87" class="0">
+<segment>
+<wire x1="558.8" y1="124.46" x2="566.42" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="124.46" x2="566.42" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="96.52" x2="579.12" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM12"/>
+<pinref part="LED30" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$88" class="0">
+<segment>
+<wire x1="563.88" y1="91.44" x2="563.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="121.92" x2="558.8" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="91.44" x2="579.12" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM13"/>
+<pinref part="LED30" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$89" class="0">
+<segment>
+<wire x1="558.8" y1="119.38" x2="561.34" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="119.38" x2="561.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="86.36" x2="579.12" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="PWM14"/>
+<pinref part="LED30" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$90" class="0">
+<segment>
+<wire x1="772.16" y1="139.7" x2="772.16" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="772.16" y1="137.16" x2="754.38" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="772.16" y1="139.7" x2="774.7" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM6"/>
+<pinref part="LED43" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$91" class="0">
+<segment>
+<wire x1="754.38" y1="132.08" x2="772.16" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="772.16" y1="132.08" x2="772.16" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="772.16" y1="129.54" x2="774.7" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM8"/>
+<pinref part="LED43" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$92" class="0">
+<segment>
+<wire x1="754.38" y1="139.7" x2="769.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="139.7" x2="769.62" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="152.4" x2="774.7" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM5"/>
+<pinref part="LED42" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$93" class="0">
+<segment>
+<wire x1="767.08" y1="157.48" x2="767.08" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="142.24" x2="754.38" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="774.7" y1="157.48" x2="767.08" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM4"/>
+<pinref part="LED42" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$94" class="0">
+<segment>
+<wire x1="754.38" y1="144.78" x2="764.54" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="144.78" x2="764.54" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="162.56" x2="774.7" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM3"/>
+<pinref part="LED42" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$95" class="0">
+<segment>
+<wire x1="762" y1="175.26" x2="762" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="762" y1="147.32" x2="754.38" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="762" y1="175.26" x2="774.7" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM2"/>
+<pinref part="LED41" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$96" class="0">
+<segment>
+<wire x1="754.38" y1="149.86" x2="759.46" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="149.86" x2="759.46" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="774.7" y1="180.34" x2="759.46" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM1"/>
+<pinref part="LED41" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$97" class="0">
+<segment>
+<wire x1="756.92" y1="185.42" x2="756.92" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="152.4" x2="754.38" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="185.42" x2="774.7" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM0"/>
+<pinref part="LED41" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$98" class="0">
+<segment>
+<wire x1="754.38" y1="129.54" x2="769.62" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="129.54" x2="769.62" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="116.84" x2="774.7" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM9"/>
+<pinref part="LED44" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$99" class="0">
+<segment>
+<wire x1="767.08" y1="111.76" x2="767.08" y2="127" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="127" x2="754.38" y2="127" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="111.76" x2="774.7" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM10"/>
+<pinref part="LED44" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$100" class="0">
+<segment>
+<wire x1="754.38" y1="124.46" x2="764.54" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="124.46" x2="764.54" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="106.68" x2="774.7" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM11"/>
+<pinref part="LED44" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$101" class="0">
+<segment>
+<wire x1="754.38" y1="121.92" x2="762" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="762" y1="121.92" x2="762" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="762" y1="93.98" x2="774.7" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM12"/>
+<pinref part="LED45" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$102" class="0">
+<segment>
+<wire x1="759.46" y1="88.9" x2="759.46" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="119.38" x2="754.38" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="88.9" x2="774.7" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM13"/>
+<pinref part="LED45" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$103" class="0">
+<segment>
+<wire x1="754.38" y1="116.84" x2="756.92" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="116.84" x2="756.92" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="83.82" x2="774.7" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="PWM14"/>
+<pinref part="LED45" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$104" class="0">
+<segment>
+<wire x1="769.62" y1="264.16" x2="769.62" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="261.62" x2="751.84" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="264.16" x2="772.16" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM6"/>
+<pinref part="LED38" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$105" class="0">
+<segment>
+<wire x1="751.84" y1="256.54" x2="769.62" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="256.54" x2="769.62" y2="254" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="254" x2="772.16" y2="254" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM8"/>
+<pinref part="LED38" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$106" class="0">
+<segment>
+<wire x1="751.84" y1="264.16" x2="767.08" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="264.16" x2="767.08" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="276.86" x2="772.16" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM5"/>
+<pinref part="LED37" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$107" class="0">
+<segment>
+<wire x1="764.54" y1="281.94" x2="764.54" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="266.7" x2="751.84" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="772.16" y1="281.94" x2="764.54" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM4"/>
+<pinref part="LED37" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$108" class="0">
+<segment>
+<wire x1="751.84" y1="269.24" x2="762" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="762" y1="269.24" x2="762" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="762" y1="287.02" x2="772.16" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM3"/>
+<pinref part="LED37" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$109" class="0">
+<segment>
+<wire x1="759.46" y1="299.72" x2="759.46" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="271.78" x2="751.84" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="299.72" x2="772.16" y2="299.72" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM2"/>
+<pinref part="LED36" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$110" class="0">
+<segment>
+<wire x1="751.84" y1="274.32" x2="756.92" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="274.32" x2="756.92" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="772.16" y1="304.8" x2="756.92" y2="304.8" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM1"/>
+<pinref part="LED36" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$111" class="0">
+<segment>
+<wire x1="754.38" y1="309.88" x2="754.38" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="276.86" x2="751.84" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="309.88" x2="772.16" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM0"/>
+<pinref part="LED36" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$112" class="0">
+<segment>
+<wire x1="751.84" y1="254" x2="767.08" y2="254" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="254" x2="767.08" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="241.3" x2="772.16" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM9"/>
+<pinref part="LED39" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$113" class="0">
+<segment>
+<wire x1="764.54" y1="236.22" x2="764.54" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="251.46" x2="751.84" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="236.22" x2="772.16" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM10"/>
+<pinref part="LED39" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$114" class="0">
+<segment>
+<wire x1="751.84" y1="248.92" x2="762" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="762" y1="248.92" x2="762" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="762" y1="231.14" x2="772.16" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM11"/>
+<pinref part="LED39" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$115" class="0">
+<segment>
+<wire x1="751.84" y1="246.38" x2="759.46" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="246.38" x2="759.46" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="218.44" x2="772.16" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM12"/>
+<pinref part="LED40" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$116" class="0">
+<segment>
+<wire x1="756.92" y1="213.36" x2="756.92" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="243.84" x2="751.84" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="213.36" x2="772.16" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM13"/>
+<pinref part="LED40" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$117" class="0">
+<segment>
+<wire x1="751.84" y1="241.3" x2="754.38" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="241.3" x2="754.38" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="208.28" x2="772.16" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="PWM14"/>
+<pinref part="LED40" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$118" class="0">
+<segment>
+<wire x1="769.62" y1="388.62" x2="769.62" y2="386.08" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="386.08" x2="751.84" y2="386.08" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="388.62" x2="772.16" y2="388.62" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM6"/>
+<pinref part="LED33" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$119" class="0">
+<segment>
+<wire x1="751.84" y1="381" x2="769.62" y2="381" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="381" x2="769.62" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="769.62" y1="378.46" x2="772.16" y2="378.46" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM8"/>
+<pinref part="LED33" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$120" class="0">
+<segment>
+<wire x1="751.84" y1="388.62" x2="767.08" y2="388.62" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="388.62" x2="767.08" y2="401.32" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="401.32" x2="772.16" y2="401.32" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM5"/>
+<pinref part="LED32" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$121" class="0">
+<segment>
+<wire x1="764.54" y1="406.4" x2="764.54" y2="391.16" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="391.16" x2="751.84" y2="391.16" width="0.1524" layer="91"/>
+<wire x1="772.16" y1="406.4" x2="764.54" y2="406.4" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM4"/>
+<pinref part="LED32" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$122" class="0">
+<segment>
+<wire x1="751.84" y1="393.7" x2="762" y2="393.7" width="0.1524" layer="91"/>
+<wire x1="762" y1="393.7" x2="762" y2="411.48" width="0.1524" layer="91"/>
+<wire x1="762" y1="411.48" x2="772.16" y2="411.48" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM3"/>
+<pinref part="LED32" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$123" class="0">
+<segment>
+<wire x1="759.46" y1="424.18" x2="759.46" y2="396.24" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="396.24" x2="751.84" y2="396.24" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="424.18" x2="772.16" y2="424.18" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM2"/>
+<pinref part="LED31" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$124" class="0">
+<segment>
+<wire x1="751.84" y1="398.78" x2="756.92" y2="398.78" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="398.78" x2="756.92" y2="429.26" width="0.1524" layer="91"/>
+<wire x1="772.16" y1="429.26" x2="756.92" y2="429.26" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM1"/>
+<pinref part="LED31" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$125" class="0">
+<segment>
+<wire x1="754.38" y1="434.34" x2="754.38" y2="401.32" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="401.32" x2="751.84" y2="401.32" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="434.34" x2="772.16" y2="434.34" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM0"/>
+<pinref part="LED31" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$126" class="0">
+<segment>
+<wire x1="751.84" y1="378.46" x2="767.08" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="378.46" x2="767.08" y2="365.76" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="365.76" x2="772.16" y2="365.76" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM9"/>
+<pinref part="LED34" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$127" class="0">
+<segment>
+<wire x1="764.54" y1="360.68" x2="764.54" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="375.92" x2="751.84" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="360.68" x2="772.16" y2="360.68" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM10"/>
+<pinref part="LED34" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$128" class="0">
+<segment>
+<wire x1="751.84" y1="373.38" x2="762" y2="373.38" width="0.1524" layer="91"/>
+<wire x1="762" y1="373.38" x2="762" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="762" y1="355.6" x2="772.16" y2="355.6" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM11"/>
+<pinref part="LED34" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$129" class="0">
+<segment>
+<wire x1="751.84" y1="370.84" x2="759.46" y2="370.84" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="370.84" x2="759.46" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="342.9" x2="772.16" y2="342.9" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM12"/>
+<pinref part="LED35" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$130" class="0">
+<segment>
+<wire x1="756.92" y1="337.82" x2="756.92" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="368.3" x2="751.84" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="337.82" x2="772.16" y2="337.82" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM13"/>
+<pinref part="LED35" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$131" class="0">
+<segment>
+<wire x1="751.84" y1="365.76" x2="754.38" y2="365.76" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="365.76" x2="754.38" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="332.74" x2="772.16" y2="332.74" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="PWM14"/>
+<pinref part="LED35" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$132" class="0">
+<segment>
+<wire x1="919.48" y1="388.62" x2="919.48" y2="386.08" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="386.08" x2="901.7" y2="386.08" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="388.62" x2="922.02" y2="388.62" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM6"/>
+<pinref part="LED48" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$133" class="0">
+<segment>
+<wire x1="901.7" y1="381" x2="919.48" y2="381" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="381" x2="919.48" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="378.46" x2="922.02" y2="378.46" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM8"/>
+<pinref part="LED48" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$134" class="0">
+<segment>
+<wire x1="901.7" y1="388.62" x2="916.94" y2="388.62" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="388.62" x2="916.94" y2="401.32" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="401.32" x2="922.02" y2="401.32" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM5"/>
+<pinref part="LED47" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$135" class="0">
+<segment>
+<wire x1="914.4" y1="406.4" x2="914.4" y2="391.16" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="391.16" x2="901.7" y2="391.16" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="406.4" x2="914.4" y2="406.4" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM4"/>
+<pinref part="LED47" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$136" class="0">
+<segment>
+<wire x1="901.7" y1="393.7" x2="911.86" y2="393.7" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="393.7" x2="911.86" y2="411.48" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="411.48" x2="922.02" y2="411.48" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM3"/>
+<pinref part="LED47" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$137" class="0">
+<segment>
+<wire x1="909.32" y1="424.18" x2="909.32" y2="396.24" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="396.24" x2="901.7" y2="396.24" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="424.18" x2="922.02" y2="424.18" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM2"/>
+<pinref part="LED46" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$138" class="0">
+<segment>
+<wire x1="901.7" y1="398.78" x2="906.78" y2="398.78" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="398.78" x2="906.78" y2="429.26" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="429.26" x2="906.78" y2="429.26" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM1"/>
+<pinref part="LED46" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$139" class="0">
+<segment>
+<wire x1="904.24" y1="434.34" x2="904.24" y2="401.32" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="401.32" x2="901.7" y2="401.32" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="434.34" x2="922.02" y2="434.34" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM0"/>
+<pinref part="LED46" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$140" class="0">
+<segment>
+<wire x1="901.7" y1="378.46" x2="916.94" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="378.46" x2="916.94" y2="365.76" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="365.76" x2="922.02" y2="365.76" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM9"/>
+<pinref part="LED49" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$141" class="0">
+<segment>
+<wire x1="914.4" y1="360.68" x2="914.4" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="375.92" x2="901.7" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="360.68" x2="922.02" y2="360.68" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM10"/>
+<pinref part="LED49" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$142" class="0">
+<segment>
+<wire x1="901.7" y1="373.38" x2="911.86" y2="373.38" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="373.38" x2="911.86" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="355.6" x2="922.02" y2="355.6" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM11"/>
+<pinref part="LED49" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$143" class="0">
+<segment>
+<wire x1="901.7" y1="370.84" x2="909.32" y2="370.84" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="370.84" x2="909.32" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="342.9" x2="922.02" y2="342.9" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM12"/>
+<pinref part="LED50" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$144" class="0">
+<segment>
+<wire x1="906.78" y1="337.82" x2="906.78" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="368.3" x2="901.7" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="337.82" x2="922.02" y2="337.82" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM13"/>
+<pinref part="LED50" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$145" class="0">
+<segment>
+<wire x1="901.7" y1="365.76" x2="904.24" y2="365.76" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="365.76" x2="904.24" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="332.74" x2="922.02" y2="332.74" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="PWM14"/>
+<pinref part="LED50" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$146" class="0">
+<segment>
+<wire x1="919.48" y1="264.16" x2="919.48" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="261.62" x2="901.7" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="264.16" x2="922.02" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM6"/>
+<pinref part="LED53" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$147" class="0">
+<segment>
+<wire x1="901.7" y1="256.54" x2="919.48" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="256.54" x2="919.48" y2="254" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="254" x2="922.02" y2="254" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM8"/>
+<pinref part="LED53" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$148" class="0">
+<segment>
+<wire x1="901.7" y1="264.16" x2="916.94" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="264.16" x2="916.94" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="276.86" x2="922.02" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM5"/>
+<pinref part="LED52" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$149" class="0">
+<segment>
+<wire x1="914.4" y1="281.94" x2="914.4" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="266.7" x2="901.7" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="281.94" x2="914.4" y2="281.94" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM4"/>
+<pinref part="LED52" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$150" class="0">
+<segment>
+<wire x1="901.7" y1="269.24" x2="911.86" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="269.24" x2="911.86" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="287.02" x2="922.02" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM3"/>
+<pinref part="LED52" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$151" class="0">
+<segment>
+<wire x1="909.32" y1="299.72" x2="909.32" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="271.78" x2="901.7" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="299.72" x2="922.02" y2="299.72" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM2"/>
+<pinref part="LED51" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$152" class="0">
+<segment>
+<wire x1="901.7" y1="274.32" x2="906.78" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="274.32" x2="906.78" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="304.8" x2="906.78" y2="304.8" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM1"/>
+<pinref part="LED51" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$153" class="0">
+<segment>
+<wire x1="904.24" y1="309.88" x2="904.24" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="276.86" x2="901.7" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="309.88" x2="922.02" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM0"/>
+<pinref part="LED51" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$154" class="0">
+<segment>
+<wire x1="901.7" y1="254" x2="916.94" y2="254" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="254" x2="916.94" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="241.3" x2="922.02" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM9"/>
+<pinref part="LED54" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$155" class="0">
+<segment>
+<wire x1="914.4" y1="236.22" x2="914.4" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="251.46" x2="901.7" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="236.22" x2="922.02" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM10"/>
+<pinref part="LED54" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$156" class="0">
+<segment>
+<wire x1="901.7" y1="248.92" x2="911.86" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="248.92" x2="911.86" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="231.14" x2="922.02" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM11"/>
+<pinref part="LED54" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$157" class="0">
+<segment>
+<wire x1="901.7" y1="246.38" x2="909.32" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="246.38" x2="909.32" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="218.44" x2="922.02" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM12"/>
+<pinref part="LED55" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$158" class="0">
+<segment>
+<wire x1="906.78" y1="213.36" x2="906.78" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="243.84" x2="901.7" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="213.36" x2="922.02" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM13"/>
+<pinref part="LED55" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$159" class="0">
+<segment>
+<wire x1="901.7" y1="241.3" x2="904.24" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="241.3" x2="904.24" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="208.28" x2="922.02" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="PWM14"/>
+<pinref part="LED55" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$160" class="0">
+<segment>
+<wire x1="919.48" y1="139.7" x2="919.48" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="137.16" x2="901.7" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="139.7" x2="922.02" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM6"/>
+<pinref part="LED58" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$161" class="0">
+<segment>
+<wire x1="901.7" y1="132.08" x2="919.48" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="132.08" x2="919.48" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="919.48" y1="129.54" x2="922.02" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM8"/>
+<pinref part="LED58" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$162" class="0">
+<segment>
+<wire x1="901.7" y1="139.7" x2="916.94" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="139.7" x2="916.94" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="152.4" x2="922.02" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM5"/>
+<pinref part="LED57" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$163" class="0">
+<segment>
+<wire x1="914.4" y1="157.48" x2="914.4" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="142.24" x2="901.7" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="157.48" x2="914.4" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM4"/>
+<pinref part="LED57" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$164" class="0">
+<segment>
+<wire x1="901.7" y1="144.78" x2="911.86" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="144.78" x2="911.86" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="162.56" x2="922.02" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM3"/>
+<pinref part="LED57" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$165" class="0">
+<segment>
+<wire x1="909.32" y1="175.26" x2="909.32" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="147.32" x2="901.7" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="175.26" x2="922.02" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM2"/>
+<pinref part="LED56" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$166" class="0">
+<segment>
+<wire x1="901.7" y1="149.86" x2="906.78" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="149.86" x2="906.78" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="180.34" x2="906.78" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM1"/>
+<pinref part="LED56" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$167" class="0">
+<segment>
+<wire x1="904.24" y1="185.42" x2="904.24" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="152.4" x2="901.7" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="185.42" x2="922.02" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM0"/>
+<pinref part="LED56" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$168" class="0">
+<segment>
+<wire x1="901.7" y1="129.54" x2="916.94" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="129.54" x2="916.94" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="116.84" x2="922.02" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM9"/>
+<pinref part="LED59" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$169" class="0">
+<segment>
+<wire x1="914.4" y1="111.76" x2="914.4" y2="127" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="127" x2="901.7" y2="127" width="0.1524" layer="91"/>
+<wire x1="914.4" y1="111.76" x2="922.02" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM10"/>
+<pinref part="LED59" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$170" class="0">
+<segment>
+<wire x1="901.7" y1="124.46" x2="911.86" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="124.46" x2="911.86" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="911.86" y1="106.68" x2="922.02" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM11"/>
+<pinref part="LED59" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$171" class="0">
+<segment>
+<wire x1="901.7" y1="121.92" x2="909.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="121.92" x2="909.32" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="909.32" y1="93.98" x2="922.02" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM12"/>
+<pinref part="LED60" gate="G$1" pin="RED_C"/>
+</segment>
+</net>
+<net name="N$172" class="0">
+<segment>
+<wire x1="906.78" y1="88.9" x2="906.78" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="119.38" x2="901.7" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="906.78" y1="88.9" x2="922.02" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM13"/>
+<pinref part="LED60" gate="G$1" pin="GREEN_C"/>
+</segment>
+</net>
+<net name="N$173" class="0">
+<segment>
+<wire x1="901.7" y1="116.84" x2="904.24" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="116.84" x2="904.24" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="83.82" x2="922.02" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="PWM14"/>
+<pinref part="LED60" gate="G$1" pin="BLUE_C"/>
+</segment>
+</net>
+<net name="N$174" class="0">
+<segment>
+<pinref part="LED48" gate="G$1" pin="GREEN_C"/>
+<pinref part="U11" gate="G$1" pin="PWM7"/>
+<wire x1="922.02" y1="383.54" x2="901.7" y2="383.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$175" class="0">
+<segment>
+<pinref part="LED53" gate="G$1" pin="GREEN_C"/>
+<pinref part="U9" gate="G$1" pin="PWM7"/>
+<wire x1="922.02" y1="259.08" x2="901.7" y2="259.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$176" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="PWM7"/>
+<pinref part="LED58" gate="G$1" pin="GREEN_C"/>
+<wire x1="901.7" y1="134.62" x2="922.02" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$177" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PWM7"/>
+<pinref part="LED43" gate="G$1" pin="GREEN_C"/>
+<wire x1="754.38" y1="134.62" x2="774.7" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$178" class="0">
+<segment>
+<pinref part="U13" gate="G$1" pin="PWM7"/>
+<pinref part="LED38" gate="G$1" pin="GREEN_C"/>
+<wire x1="751.84" y1="259.08" x2="772.16" y2="259.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$179" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="PWM7"/>
+<pinref part="LED33" gate="G$1" pin="GREEN_C"/>
+<wire x1="751.84" y1="383.54" x2="772.16" y2="383.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$180" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="PWM7"/>
+<pinref part="LED18" gate="G$1" pin="GREEN_C"/>
+<wire x1="558.8" y1="386.08" x2="579.12" y2="386.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$181" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="PWM7"/>
+<pinref part="LED23" gate="G$1" pin="GREEN_C"/>
+<wire x1="558.8" y1="261.62" x2="579.12" y2="261.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$182" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="PWM7"/>
+<pinref part="LED28" gate="G$1" pin="GREEN_C"/>
+<wire x1="558.8" y1="137.16" x2="579.12" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$183" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PWM7"/>
+<pinref part="LED13" gate="G$1" pin="GREEN_C"/>
+<wire x1="388.62" y1="137.16" x2="408.94" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$184" class="0">
+<segment>
+<pinref part="LED8" gate="G$1" pin="GREEN_C"/>
+<pinref part="U3" gate="G$1" pin="PWM7"/>
+<wire x1="408.94" y1="261.62" x2="388.62" y2="261.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DGND" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
+<wire x1="347.98" y1="116.84" x2="345.44" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY3" gate="G$1" pin="DGND"/>
+<wire x1="347.98" y1="241.3" x2="345.44" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY4" gate="G$1" pin="DGND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="345.44" y1="365.76" x2="347.98" y2="365.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY5" gate="G$1" pin="DGND"/>
+<pinref part="U12" gate="G$1" pin="GND"/>
+<wire x1="515.62" y1="365.76" x2="518.16" y2="365.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY7" gate="G$1" pin="DGND"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
+<wire x1="515.62" y1="241.3" x2="518.16" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY10" gate="G$1" pin="DGND"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
+<wire x1="515.62" y1="116.84" x2="518.16" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY9" gate="G$1" pin="DGND"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
+<wire x1="711.2" y1="114.3" x2="713.74" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY11" gate="G$1" pin="DGND"/>
+<pinref part="U10" gate="G$1" pin="GND"/>
+<wire x1="858.52" y1="114.3" x2="861.06" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY12" gate="G$1" pin="DGND"/>
+<wire x1="861.06" y1="238.76" x2="858.52" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY8" gate="G$1" pin="DGND"/>
+<pinref part="U13" gate="G$1" pin="GND"/>
+<wire x1="708.66" y1="238.76" x2="711.2" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="G$1" pin="DGND"/>
+<pinref part="U8" gate="G$1" pin="GND"/>
+<wire x1="708.66" y1="363.22" x2="711.2" y2="363.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY13" gate="G$1" pin="DGND"/>
+<pinref part="U11" gate="G$1" pin="GND"/>
+<wire x1="858.52" y1="363.22" x2="861.06" y2="363.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
