@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501021931+5348~20~ubuntu14.04.1-product   date = Sat 10 Jan 2015 15:18:14 GMT
+Cmp-Mod V01 Created by Cvpcb 0.201501021931+5348~20~ubuntu14.04.1-product   date = Sat 10 Jan 2015 16:39:38 GMT
 
 BeginCmp
 TimeStamp = /54AA1EFE;
@@ -9,7 +9,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B172FA;
-Reference = BT301;
+Reference = BT1;
 ValeurCmp = 3V;
 IdModule  = ;
 EndCmp
@@ -57,626 +57,626 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AA18DD/54A96B46;
+TimeStamp = /54AA18DD/54B27AC9;
 Reference = C7;
-ValeurCmp = 100n;
+ValeurCmp = 1u;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AA18DD/54A96B40;
+TimeStamp = /54AA18DD/54A96B46;
 Reference = C8;
 ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AA18DD/54B27AC9;
-Reference = C201;
-ValeurCmp = 1u;
+TimeStamp = /54AA18DD/54A96B40;
+Reference = C9;
+ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B13F73;
-Reference = C301;
+Reference = C10;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B137B6;
-Reference = C302;
+Reference = C11;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B13F6D;
-Reference = C303;
+Reference = C12;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B13791;
-Reference = C304;
+Reference = C13;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B28462;
-Reference = C305;
+Reference = C14;
 ValeurCmp = 1u;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B28316;
-Reference = C306;
+Reference = C15;
 ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B28394;
-Reference = C307;
+Reference = C16;
 ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B283DE;
-Reference = C308;
+Reference = C17;
 ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B28409;
-Reference = C309;
+Reference = C18;
 ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B28435;
-Reference = C310;
+Reference = C19;
 ValeurCmp = 100n;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B28ED0;
-Reference = C311;
+Reference = C20;
 ValeurCmp = 1u;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B11E5F/54B2B528;
-Reference = C501;
+Reference = C21;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B1A859/54B2B528;
-Reference = C601;
+Reference = C22;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B267EF/54B2B528;
-Reference = C701;
+Reference = C23;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B267F8/54B2B528;
-Reference = C801;
+Reference = C24;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28535/54B2B528;
-Reference = C901;
+Reference = C25;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B2853E/54B2B528;
-Reference = C1001;
+Reference = C26;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28547/54B2B528;
-Reference = C1101;
+Reference = C27;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28550/54B2B528;
-Reference = C1201;
+Reference = C28;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29519/54B2B528;
-Reference = C1301;
+Reference = C29;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29522/54B2B528;
-Reference = C1401;
+Reference = C30;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B2952B/54B2B528;
-Reference = C1501;
+Reference = C31;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29534/54B2B528;
-Reference = C1601;
+Reference = C32;
 ValeurCmp = C;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B1509B;
-Reference = CON301;
+Reference = CON1;
 ValeurCmp = USB-MICRO-B;
 IdModule  = Connect:USB_Micro-B;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B11834/54B11E5F/54B16870;
-Reference = D501;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B11E5F/54B16AF6;
-Reference = D502;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B11E5F/54B16B3B;
-Reference = D503;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B11E5F/54B16C15;
-Reference = D504;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B11E5F/54B16C50;
-Reference = D505;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B1A859/54B16870;
-Reference = D601;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B1A859/54B16AF6;
-Reference = D602;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B1A859/54B16B3B;
-Reference = D603;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B1A859/54B16C15;
-Reference = D604;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B1A859/54B16C50;
-Reference = D605;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267EF/54B16870;
-Reference = D701;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267EF/54B16AF6;
-Reference = D702;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267EF/54B16B3B;
-Reference = D703;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267EF/54B16C15;
-Reference = D704;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267EF/54B16C50;
-Reference = D705;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267F8/54B16870;
-Reference = D801;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267F8/54B16AF6;
-Reference = D802;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267F8/54B16B3B;
-Reference = D803;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267F8/54B16C15;
-Reference = D804;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267F8/54B16C50;
-Reference = D805;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28535/54B16870;
-Reference = D901;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28535/54B16AF6;
-Reference = D902;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28535/54B16B3B;
-Reference = D903;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28535/54B16C15;
-Reference = D904;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28535/54B16C50;
-Reference = D905;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2853E/54B16870;
-Reference = D1001;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2853E/54B16AF6;
-Reference = D1002;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2853E/54B16B3B;
-Reference = D1003;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2853E/54B16C15;
-Reference = D1004;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2853E/54B16C50;
-Reference = D1005;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28547/54B16870;
-Reference = D1101;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28547/54B16AF6;
-Reference = D1102;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28547/54B16B3B;
-Reference = D1103;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28547/54B16C15;
-Reference = D1104;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28547/54B16C50;
-Reference = D1105;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
 TimeStamp = /54B11834/54B28550/54B16870;
-Reference = D1201;
+Reference = D36;
 ValeurCmp = LED_RGB;
 IdModule  = rgb:rgbled1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28550/54B16AF6;
-Reference = D1202;
+Reference = D37;
 ValeurCmp = LED_RGB;
 IdModule  = rgb:rgbled1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28550/54B16B3B;
-Reference = D1203;
+Reference = D38;
 ValeurCmp = LED_RGB;
 IdModule  = rgb:rgbled1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28550/54B16C15;
-Reference = D1204;
+Reference = D39;
 ValeurCmp = LED_RGB;
 IdModule  = rgb:rgbled1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28550/54B16C50;
-Reference = D1205;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29519/54B16870;
-Reference = D1301;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29519/54B16AF6;
-Reference = D1302;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29519/54B16B3B;
-Reference = D1303;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29519/54B16C15;
-Reference = D1304;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29519/54B16C50;
-Reference = D1305;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29522/54B16870;
-Reference = D1401;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29522/54B16AF6;
-Reference = D1402;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29522/54B16B3B;
-Reference = D1403;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29522/54B16C15;
-Reference = D1404;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29522/54B16C50;
-Reference = D1405;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2952B/54B16870;
-Reference = D1501;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2952B/54B16AF6;
-Reference = D1502;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2952B/54B16B3B;
-Reference = D1503;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2952B/54B16C15;
-Reference = D1504;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2952B/54B16C50;
-Reference = D1505;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29534/54B16870;
-Reference = D1601;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29534/54B16AF6;
-Reference = D1602;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29534/54B16B3B;
-Reference = D1603;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29534/54B16C15;
-Reference = D1604;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29534/54B16C50;
-Reference = D1605;
+Reference = D40;
 ValeurCmp = LED_RGB;
 IdModule  = rgb:rgbled1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B11B55;
-Reference = IC301;
+Reference = IC1;
 ValeurCmp = ATXMEGA256A3BU-A;
 IdModule  = SMD_Packages:TQFP-64;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B11B88;
-Reference = J301;
+Reference = J1;
 ValeurCmp = AVR_JTAG_Header;
 IdModule  = Socket_Strips:Socket_Strip_Straight_2x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28535/54B16870;
+Reference = LED1;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28535/54B16AF6;
+Reference = LED2;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28535/54B16B3B;
+Reference = LED3;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28535/54B16C15;
+Reference = LED4;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28535/54B16C50;
+Reference = LED5;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28547/54B16870;
+Reference = LED6;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28547/54B16AF6;
+Reference = LED7;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28547/54B16B3B;
+Reference = LED8;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28547/54B16C15;
+Reference = LED9;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28547/54B16C50;
+Reference = LED10;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B11E5F/54B16870;
+Reference = LED11;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B11E5F/54B16AF6;
+Reference = LED12;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B11E5F/54B16B3B;
+Reference = LED13;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B11E5F/54B16C15;
+Reference = LED14;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B11E5F/54B16C50;
+Reference = LED15;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267EF/54B16870;
+Reference = LED16;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267EF/54B16AF6;
+Reference = LED17;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267EF/54B16B3B;
+Reference = LED18;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267EF/54B16C15;
+Reference = LED19;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267EF/54B16C50;
+Reference = LED20;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29519/54B16870;
+Reference = LED21;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29519/54B16AF6;
+Reference = LED22;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29519/54B16B3B;
+Reference = LED23;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29519/54B16C15;
+Reference = LED24;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29519/54B16C50;
+Reference = LED25;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2952B/54B16870;
+Reference = LED26;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2952B/54B16AF6;
+Reference = LED27;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2952B/54B16B3B;
+Reference = LED28;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2952B/54B16C15;
+Reference = LED29;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2952B/54B16C50;
+Reference = LED30;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2853E/54B16870;
+Reference = LED31;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2853E/54B16AF6;
+Reference = LED32;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2853E/54B16B3B;
+Reference = LED33;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2853E/54B16C15;
+Reference = LED34;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2853E/54B16C50;
+Reference = LED35;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B1A859/54B16870;
+Reference = LED41;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B1A859/54B16AF6;
+Reference = LED42;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B1A859/54B16B3B;
+Reference = LED43;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B1A859/54B16C15;
+Reference = LED44;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B1A859/54B16C50;
+Reference = LED45;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267F8/54B16870;
+Reference = LED46;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267F8/54B16AF6;
+Reference = LED47;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267F8/54B16B3B;
+Reference = LED48;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267F8/54B16C15;
+Reference = LED49;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267F8/54B16C50;
+Reference = LED50;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29522/54B16870;
+Reference = LED51;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29522/54B16AF6;
+Reference = LED52;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29522/54B16B3B;
+Reference = LED53;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29522/54B16C15;
+Reference = LED54;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29522/54B16C50;
+Reference = LED55;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29534/54B16870;
+Reference = LED56;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29534/54B16AF6;
+Reference = LED57;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29534/54B16B3B;
+Reference = LED58;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29534/54B16C15;
+Reference = LED59;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29534/54B16C50;
+Reference = LED60;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
 EndCmp
 
 BeginCmp
@@ -779,217 +779,217 @@ EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B17628;
-Reference = R301;
+Reference = R15;
 ValeurCmp = 100R;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B182E1;
-Reference = R302;
+Reference = R16;
 ValeurCmp = 50R;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B11BE7;
-Reference = R303;
+Reference = R17;
 ValeurCmp = 47k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B11C1B;
-Reference = R304;
+Reference = R18;
 ValeurCmp = 47k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B11E5F/54B2B708;
-Reference = R501;
+Reference = R19;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B1A859/54B2B708;
-Reference = R601;
+Reference = R20;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B267EF/54B2B708;
-Reference = R701;
+Reference = R21;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B267F8/54B2B708;
-Reference = R801;
+Reference = R22;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28535/54B2B708;
-Reference = R901;
+Reference = R23;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B2853E/54B2B708;
-Reference = R1001;
+Reference = R24;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28547/54B2B708;
-Reference = R1101;
+Reference = R25;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28550/54B2B708;
-Reference = R1201;
+Reference = R26;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29519/54B2B708;
-Reference = R1301;
+Reference = R27;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29522/54B2B708;
-Reference = R1401;
+Reference = R28;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B2952B/54B2B708;
-Reference = R1501;
+Reference = R29;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29534/54B2B708;
-Reference = R1601;
+Reference = R30;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AA18DD/54A9C436;
-Reference = U1;
-ValeurCmp = LM324;
-IdModule  = SMD_Packages:TSSOP-14;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B11E5F/54B11E68;
-Reference = U501;
-ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B1A859/54B11E68;
-Reference = U601;
-ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267EF/54B11E68;
-Reference = U701;
-ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B267F8/54B11E68;
-Reference = U801;
-ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
-EndCmp
-
-BeginCmp
 TimeStamp = /54B11834/54B28535/54B11E68;
-Reference = U901;
-ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B2853E/54B11E68;
-Reference = U1001;
+Reference = U1;
 ValeurCmp = PCA9685;
 IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28547/54B11E68;
-Reference = U1101;
+Reference = U2;
 ValeurCmp = PCA9685;
 IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B11834/54B28550/54B11E68;
-Reference = U1201;
+TimeStamp = /54B11834/54B11E5F/54B11E68;
+Reference = U3;
+ValeurCmp = PCA9685;
+IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267EF/54B11E68;
+Reference = U4;
 ValeurCmp = PCA9685;
 IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29519/54B11E68;
-Reference = U1301;
-ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B29522/54B11E68;
-Reference = U1401;
+Reference = U5;
 ValeurCmp = PCA9685;
 IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B2952B/54B11E68;
-Reference = U1501;
+Reference = U6;
+ValeurCmp = PCA9685;
+IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B2853E/54B11E68;
+Reference = U7;
+ValeurCmp = PCA9685;
+IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28550/54B11E68;
+Reference = U8;
+ValeurCmp = PCA9685;
+IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B1A859/54B11E68;
+Reference = U9;
+ValeurCmp = PCA9685;
+IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B267F8/54B11E68;
+Reference = U10;
+ValeurCmp = PCA9685;
+IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B29522/54B11E68;
+Reference = U11;
 ValeurCmp = PCA9685;
 IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29534/54B11E68;
-Reference = U1601;
+Reference = U12;
 ValeurCmp = PCA9685;
 IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /54AA18DD/54A9C436;
+Reference = U20;
+ValeurCmp = LM324;
+IdModule  = SMD_Packages:TSSOP-14;
+EndCmp
+
+BeginCmp
 TimeStamp = /54B117F3/54B13F67;
-Reference = X301;
+Reference = X1;
 ValeurCmp = 12MHz;
 IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B1373C;
-Reference = X302;
+Reference = X2;
 ValeurCmp = 32.768KhZ;
 IdModule  = ;
 EndCmp
