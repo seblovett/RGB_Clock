@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AVR_JTAG_Header
+D AVR JTAG Header
+$ENDCMP
+#
+#End Doc Library
