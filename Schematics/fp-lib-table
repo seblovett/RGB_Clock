@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name rgb)(type KiCad)(uri ${KIPRJMOD}/../rgb.pretty)(options "")(descr ""))
+  (lib (name usb)(type KiCad)(uri ${KIPRJMOD}/../usb.pretty)(options "")(descr ""))
 )

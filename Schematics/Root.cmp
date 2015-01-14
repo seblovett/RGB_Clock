@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501021931+5348~20~ubuntu14.04.1-product   date = Sat 10 Jan 2015 16:39:38 GMT
+Cmp-Mod V01 Created by Cvpcb 0.201501021931+5348~20~ubuntu14.04.1-product   date = Mon 12 Jan 2015 22:18:52 GMT
 
 BeginCmp
 TimeStamp = /54AA1EFE;
@@ -11,14 +11,14 @@ BeginCmp
 TimeStamp = /54B117F3/54B172FA;
 Reference = BT1;
 ValeurCmp = 3V;
-IdModule  = ;
+IdModule  = rgb:BU2032SM-HD-GTR-ND;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AA1FB2;
 Reference = C1;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = Capacitors_SMD:C_1206;
 EndCmp
 
 BeginCmp
@@ -242,42 +242,7 @@ BeginCmp
 TimeStamp = /54B117F3/54B1509B;
 Reference = CON1;
 ValeurCmp = USB-MICRO-B;
-IdModule  = Connect:USB_Micro-B;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28550/54B16870;
-Reference = D36;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28550/54B16AF6;
-Reference = D37;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28550/54B16B3B;
-Reference = D38;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28550/54B16C15;
-Reference = D39;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B11834/54B28550/54B16C50;
-Reference = D40;
-ValeurCmp = LED_RGB;
-IdModule  = rgb:rgbled1;
+IdModule  = usb:USB_Micro-B;
 EndCmp
 
 BeginCmp
@@ -291,7 +256,14 @@ BeginCmp
 TimeStamp = /54B117F3/54B11B88;
 Reference = J1;
 ValeurCmp = AVR_JTAG_Header;
-IdModule  = Socket_Strips:Socket_Strip_Straight_2x05;
+IdModule  = rgb:FTSH-105-01-L-DV-K-A-P;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B117F3/54B2854F;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = SMD_Packages:SMD-0201_r;
 EndCmp
 
 BeginCmp
@@ -540,6 +512,41 @@ IdModule  = rgb:rgbled1;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B11834/54B28550/54B16870;
+Reference = LED36;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28550/54B16AF6;
+Reference = LED37;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28550/54B16B3B;
+Reference = LED38;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28550/54B16C15;
+Reference = LED39;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B11834/54B28550/54B16C50;
+Reference = LED40;
+ValeurCmp = LED_RGB;
+IdModule  = rgb:rgbled1;
+EndCmp
+
+BeginCmp
 TimeStamp = /54B11834/54B1A859/54B16870;
 Reference = LED41;
 ValeurCmp = LED_RGB;
@@ -753,7 +760,7 @@ BeginCmp
 TimeStamp = /54AA18DD/54A96B3A;
 Reference = R11;
 ValeurCmp = 56k;
-IdModule  = Resistors_SMD:R_0402;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
@@ -890,6 +897,13 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B117F3/54B2AC08;
+Reference = R100;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /54B11834/54B28535/54B11E68;
 Reference = U1;
 ValeurCmp = PCA9685;
@@ -977,21 +991,21 @@ BeginCmp
 TimeStamp = /54AA18DD/54A9C436;
 Reference = U20;
 ValeurCmp = LM324;
-IdModule  = SMD_Packages:TSSOP-14;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B117F3/54B13F67;
+TimeStamp = /54B117F3/54B26940;
 Reference = X1;
 ValeurCmp = 12MHz;
-IdModule  = ;
+IdModule  = Crystals_Oscillators_SMD:crystal_FA238-TSX3225;
 EndCmp
 
 BeginCmp
-TimeStamp = /54B117F3/54B1373C;
+TimeStamp = /54B117F3/54B2624B;
 Reference = X2;
 ValeurCmp = 32.768KhZ;
-IdModule  = ;
+IdModule  = Crystals_Oscillators_SMD:crystal_FA238-TSX3225;
 EndCmp
 
 EndListe
