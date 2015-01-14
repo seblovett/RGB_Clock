@@ -1,20 +1,20 @@
 #!/usr/bin/python
 # @file leds.py
 # Date Created: Sat 10 Jan 2015 16:32:28 GMT by seblovett on seblovett-Ubuntu
-# <+Last Edited: Sat 10 Jan 2015 17:25:45 GMT by seblovett on seblovett-Ubuntu +>
+# <+Last Edited: Sun 11 Jan 2015 10:40:04 GMT by seblovett on seblovett-Ubuntu +>
 # @author seblovett
 # @brief A brief description of this codo
 from pcbnew import *
 import math
 #all measurements are in nanometers.... 
 ORIGIN = [105500000, 85200000] 
-DIST = -47000000
+DIST = -40000000
 
-def LEDtoLoc(led):
+def LEDtoLoc(led, count=60.0):
 	
 	#calculate where the LED should be. 
-	x = math.sin(2*math.pi*led/60.0)*DIST + ORIGIN[0]
-	y = math.cos(2*math.pi*led/60.0)*DIST + ORIGIN[1]
+	x = math.sin(2*math.pi*led/count)*DIST + ORIGIN[0]
+	y = math.cos(2*math.pi*led/count)*DIST + ORIGIN[1]
 	pt = wxPoint(x,y)
 	return pt
 def LEDtoAngle(led):
@@ -28,9 +28,16 @@ mod = pcb.GetModules()
 while mod:
 	if(mod.GetReference().startswith("LED")):
 		#print mod.GetReference()
-		n = float(mod.GetReference()[3:])
-		mod.SetPosition(LEDtoLoc(n))
-		mod.SetOrientation(LEDtoAngle(n))
+		#n = float(mod.GetReference()[3:])
+		#mod.SetPosition(LEDtoLoc(n))
+		#mod.SetOrientation(LEDtoAngle(n))
+		mod.SetLocked(True)
+	if(mod.GetReference().startswith("U")):
+		mod.SetLocked(False)
+		n = float(mod.GetReference()[1:])
+		if(n < 13.0):
+			mod.SetPosition(LEDtoLoc(n*5-2))
+		mod.SetLocked(True)
 	mod = mod.Next()
 #while(mod.GetReference != "LED1"):
 #	mod = mod.Next()
