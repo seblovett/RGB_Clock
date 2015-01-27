@@ -1,4 +1,4 @@
-update=Sat 10 Jan 2015 12:00:25 GMT
+update=Sat 17 Jan 2015 17:12:38 GMT
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,7 +29,7 @@ ModuleOutlineThickness=0.150000000000
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../Library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -63,3 +63,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/seblovett/Documents/RGB_Clock/Library/pca9685
 LibName32=/home/seblovett/Documents/RGB_Clock/Library/avr_jtag_header
+LibName33=/home/seblovett/Documents/RGB_Clock/Library/linear-technology

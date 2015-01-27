@@ -1,80 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501021931+5348~20~ubuntu14.04.1-product   date = Mon 12 Jan 2015 22:18:52 GMT
-
-BeginCmp
-TimeStamp = /54AA1EFE;
-Reference = ANT1;
-ValeurCmp = ANT;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
+Cmp-Mod V01 Created by Cvpcb 0.201501162016+5375~20~ubuntu14.04.1-product   date = Tue 27 Jan 2015 21:08:13 GMT
 
 BeginCmp
 TimeStamp = /54B117F3/54B172FA;
 Reference = BT1;
 ValeurCmp = 3V;
 IdModule  = rgb:BU2032SM-HD-GTR-ND;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA1FB2;
-Reference = C1;
-ValeurCmp = C;
-IdModule  = Capacitors_SMD:C_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A95F6E;
-Reference = C2;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54ADC2AD;
-Reference = C3;
-ValeurCmp = 1p;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A95F29;
-Reference = C4;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A96E0B;
-Reference = C5;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A96E05;
-Reference = C6;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54B27AC9;
-Reference = C7;
-ValeurCmp = 1u;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A96B46;
-Reference = C8;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A96B40;
-Reference = C9;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
@@ -239,6 +169,55 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B1185F/54BABEBE;
+Reference = C33;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BABE55;
+Reference = C34;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BABDE6;
+Reference = C35;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BABE93;
+Reference = C36;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BABE7A;
+Reference = C37;
+ValeurCmp = 10p;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BAC041;
+Reference = C38;
+ValeurCmp = 47n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BAC05A;
+Reference = C39;
+ValeurCmp = 47n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /54B117F3/54B1509B;
 Reference = CON1;
 ValeurCmp = USB-MICRO-B;
@@ -246,10 +225,17 @@ IdModule  = usb:USB_Micro-B;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B1185F/54BAE7B5;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /54B117F3/54B11B55;
 Reference = IC1;
 ValeurCmp = ATXMEGA256A3BU-A;
-IdModule  = SMD_Packages:TQFP-64;
+IdModule  = Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm;
 EndCmp
 
 BeginCmp
@@ -263,7 +249,14 @@ BeginCmp
 TimeStamp = /54B117F3/54B2854F;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = SMD_Packages:SMD-0201_r;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BAC3AF;
+Reference = L1;
+ValeurCmp = 3.2u;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -687,114 +680,16 @@ IdModule  = rgb:rgbled1;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AA18DD/54A95D50;
-Reference = R1;
-ValeurCmp = 15k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A99611;
-Reference = R2;
-ValeurCmp = 50R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A95EDF;
-Reference = R3;
-ValeurCmp = 30k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54ADC0EC;
-Reference = R4;
-ValeurCmp = 100k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54ADC17D;
-Reference = R5;
-ValeurCmp = 100k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54ADC04D;
-Reference = R6;
-ValeurCmp = 100R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A96DF9;
-Reference = R7;
-ValeurCmp = 15k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54ADC39D;
-Reference = R8;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A96DFF;
-Reference = R9;
-ValeurCmp = 56k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A96B34;
-Reference = R10;
-ValeurCmp = 15k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A96B3A;
-Reference = R11;
-ValeurCmp = 56k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A9AB56;
-Reference = R12;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A9AC08;
-Reference = R13;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AA18DD/54A97FE1;
-Reference = R14;
-ValeurCmp = 50;
-IdModule  = Resistors_SMD:R_0603;
+TimeStamp = /54B117F3/54C8095F;
+Reference = P1;
+ValeurCmp = CONN_02X08;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x08;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54B17628;
 Reference = R15;
 ValeurCmp = 100R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B117F3/54B182E1;
-Reference = R16;
-ValeurCmp = 50R;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -897,6 +792,34 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B1185F/54BABA8F;
+Reference = R31;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BAB9FE;
+Reference = R32;
+ValeurCmp = 41.2k;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BAB9C1;
+Reference = R33;
+ValeurCmp = 2.4M;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B1185F/54BAB8C0;
+Reference = R34;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /54B117F3/54B2AC08;
 Reference = R100;
 ValeurCmp = 100k;
@@ -988,10 +911,10 @@ IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AA18DD/54A9C436;
-Reference = U20;
-ValeurCmp = LM324;
-IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+TimeStamp = /54B1185F/54BAB851;
+Reference = U13;
+ValeurCmp = LT8612;
+IdModule  = rgb:28QFN;
 EndCmp
 
 BeginCmp
