@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501162016+5375~20~ubuntu14.04.1-product   date = Tue 27 Jan 2015 21:08:13 GMT
+Cmp-Mod V01 Created by Cvpcb 0.201501162016+5375~20~ubuntu14.04.1-product   date = Wed 28 Jan 2015 21:55:34 GMT
 
 BeginCmp
 TimeStamp = /54B117F3/54B172FA;
@@ -74,13 +74,6 @@ BeginCmp
 TimeStamp = /54B117F3/54B28435;
 Reference = C19;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54B117F3/54B28ED0;
-Reference = C20;
-ValeurCmp = 1u;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
@@ -221,7 +214,14 @@ BeginCmp
 TimeStamp = /54B117F3/54B1509B;
 Reference = CON1;
 ValeurCmp = USB-MICRO-B;
-IdModule  = usb:USB_Micro-B;
+IdModule  = Connect:USB_Mini-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C9C7E5;
+Reference = CON2;
+ValeurCmp = BARREL_JACK;
+IdModule  = Connect:JACK_ALIM;
 EndCmp
 
 BeginCmp
@@ -256,7 +256,7 @@ BeginCmp
 TimeStamp = /54B1185F/54BAC3AF;
 Reference = L1;
 ValeurCmp = 3.2u;
-IdModule  = ;
+IdModule  = rgb:SD43;
 EndCmp
 
 BeginCmp
@@ -827,87 +827,115 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B117F3/54C97108;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B117F3/54C9B3E4;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B117F3/54C9B54A;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B117F3/54C9B587;
+Reference = SW4;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /54B11834/54B28535/54B11E68;
 Reference = U1;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28547/54B11E68;
 Reference = U2;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B11E5F/54B11E68;
 Reference = U3;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B267EF/54B11E68;
 Reference = U4;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29519/54B11E68;
 Reference = U5;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B2952B/54B11E68;
 Reference = U6;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B2853E/54B11E68;
 Reference = U7;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B28550/54B11E68;
 Reference = U8;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B1A859/54B11E68;
 Reference = U9;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B267F8/54B11E68;
 Reference = U10;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29522/54B11E68;
 Reference = U11;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B11834/54B29534/54B11E68;
 Reference = U12;
 ValeurCmp = PCA9685;
-IdModule  = Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
@@ -920,7 +948,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54B117F3/54B26940;
 Reference = X1;
-ValeurCmp = 12MHz;
+ValeurCmp = 16MHz;
 IdModule  = Crystals_Oscillators_SMD:crystal_FA238-TSX3225;
 EndCmp
 
@@ -928,7 +956,7 @@ BeginCmp
 TimeStamp = /54B117F3/54B2624B;
 Reference = X2;
 ValeurCmp = 32.768KhZ;
-IdModule  = Crystals_Oscillators_SMD:crystal_FA238-TSX3225;
+IdModule  = rgb:SMD_Osc;
 EndCmp
 
 EndListe
