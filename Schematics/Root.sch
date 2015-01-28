@@ -55,7 +55,6 @@ F1 "Microcontroller.sch" 60
 F2 "SDA" B R 6450 2600 60 
 F3 "SCL" O R 6450 2750 60 
 F4 "~OE[1..12]" O R 6450 2450 60 
-F5 "Vusb" O L 5300 2700 60 
 $EndSheet
 $Sheet
 S 8000 2250 800  750 
