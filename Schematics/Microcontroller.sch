@@ -613,7 +613,6 @@ NoConn ~ 4750 3750
 NoConn ~ 4750 3650
 NoConn ~ 6950 2550
 NoConn ~ 6950 2450
-NoConn ~ 6950 2350
 $Comp
 L CONN_02X08 P1
 U 1 1 54C8095F
@@ -884,7 +883,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 1900 9850 1850
 Wire Wire Line
-	9700 2450 9900 2450
+	9500 2450 9900 2450
 Wire Wire Line
 	9850 2400 9850 2450
 Connection ~ 9850 2450
@@ -1028,4 +1027,10 @@ F 5 "Farnell" H 7750 2250 60  0001 C CNN "Supplier"
 	1    7750 2250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6950 2350 7250 2350
+Text Label 9500 2450 0    60   ~ 0
+JUMPER
+Text Label 7100 2350 0    60   ~ 0
+JUMPER
 $EndSCHEMATC
