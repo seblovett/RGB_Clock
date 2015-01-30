@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201501162016+5375~20~ubuntu14.04.1-product   date = Wed 28 Jan 2015 21:55:34 GMT
+Cmp-Mod V01 Created by Cvpcb 0.201501162016+5375~20~ubuntu14.04.1-product   date = Fri 30 Jan 2015 19:34:08 GMT
 
 BeginCmp
 TimeStamp = /54B117F3/54B172FA;
@@ -830,28 +830,28 @@ BeginCmp
 TimeStamp = /54B117F3/54C97108;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = rgb:SW;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54C9B3E4;
 Reference = SW2;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = rgb:SW;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54C9B54A;
 Reference = SW3;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = rgb:SW;
 EndCmp
 
 BeginCmp
 TimeStamp = /54B117F3/54C9B587;
 Reference = SW4;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = rgb:SW;
 EndCmp
 
 BeginCmp

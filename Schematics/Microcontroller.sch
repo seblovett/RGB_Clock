@@ -82,7 +82,7 @@ F 3 "" H 9400 1550 30  0000 C CNN
 	1    9400 1550
 	1    0    0    -1  
 $EndComp
-Text HLabel 8400 5100 2    60   Output ~ 0
+Text HLabel 4150 6550 2    60   Output ~ 0
 ~OE[1..12]
 Text HLabel 7800 3450 2    60   BiDi ~ 0
 SDA
@@ -129,42 +129,36 @@ F 3 "" H 5850 5600 60  0000 C CNN
 	1    5850 5600
 	1    0    0    -1  
 $EndComp
-Text Label 4450 4500 0    60   ~ 0
-~OE1
-Text Label 4450 4600 0    60   ~ 0
-~OE2
-Text Label 4450 4700 0    60   ~ 0
-~OE3
-Text Label 4450 4800 0    60   ~ 0
-~OE4
-Text Label 4450 4900 0    60   ~ 0
-~OE5
-Text Label 4450 5000 0    60   ~ 0
-~OE6
 Text Label 7050 4500 0    60   ~ 0
-~OE7
+~OE1
 Text Label 7050 4600 0    60   ~ 0
-~OE8
+~OE2
 Text Label 7050 4700 0    60   ~ 0
-~OE9
+~OE3
 Text Label 7050 4800 0    60   ~ 0
-~OE10
+~OE4
 Text Label 7050 4900 0    60   ~ 0
-~OE11
+~OE5
 Text Label 7050 5000 0    60   ~ 0
+~OE6
+Text Label 4500 3850 0    60   ~ 0
+~OE7
+Text Label 4500 3950 0    60   ~ 0
+~OE8
+Text Label 4500 4050 0    60   ~ 0
+~OE9
+Text Label 7050 1950 0    60   ~ 0
+~OE10
+Text Label 7050 2050 0    60   ~ 0
+~OE11
+Text Label 7050 2150 0    60   ~ 0
 ~OE12
 Entry Wire Line
-	7350 4500 7450 4600
+	3100 5950 3200 6050
 Entry Wire Line
-	7350 4600 7450 4700
+	3100 6050 3200 6150
 Entry Wire Line
-	7350 4700 7450 4800
-Entry Wire Line
-	7350 4800 7450 4900
-Entry Wire Line
-	7350 4900 7450 5000
-Entry Wire Line
-	7350 5000 7450 5100
+	3100 6450 3200 6550
 Text Label 7050 3500 0    60   ~ 0
 TDO
 Text Label 8600 3050 0    60   ~ 0
@@ -378,11 +372,7 @@ F 3 "" H 3200 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4750 2050
-NoConn ~ 6950 2800
-NoConn ~ 6950 2900
-NoConn ~ 6950 3000
-NoConn ~ 6950 3100
-Text Label 8400 5100 2    60   ~ 0
+Text Label 4150 6550 2    60   ~ 0
 ~OE[1..12]
 $Comp
 L C C15
@@ -564,33 +554,6 @@ F 3 "" H 9850 1850 60  0000 C CNN
 	1    9850 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L ATXMEGA256A3BU-A IC1
-U 1 1 54B11B55
-P 5850 3550
-F 0 "IC1" H 4900 5350 40  0000 L BNN
-F 1 "ATXMEGA256A3BU-A" H 6250 1650 40  0000 L BNN
-F 2 "Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm" H 5850 3550 35  0000 C CIN
-F 3 "" H 5850 3550 60  0000 C CNN
-F 4 "ATXMEGA256A3BU-A" H 5850 3550 60  0001 C CNN "Part"
-F 5 "Farnell" H 5850 3550 60  0001 C CNN "Supplier"
-	1    5850 3550
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	4250 4400 4350 4500
-Entry Wire Line
-	4250 4500 4350 4600
-Entry Wire Line
-	4250 4600 4350 4700
-Entry Wire Line
-	4250 4700 4350 4800
-Entry Wire Line
-	4250 4800 4350 4900
-Entry Wire Line
-	4250 4900 4350 5000
-Text Label 4100 5150 2    60   ~ 0
-~OE[1..12]
 Text Label 7050 4350 0    60   ~ 0
 SCK
 Text Label 7050 4250 0    60   ~ 0
@@ -603,50 +566,45 @@ Text Label 7050 3950 0    60   ~ 0
 TX
 Text Label 7050 3850 0    60   ~ 0
 RX
-NoConn ~ 6950 2650
 NoConn ~ 4750 4250
 NoConn ~ 4750 4150
-NoConn ~ 4750 4050
-NoConn ~ 4750 3950
-NoConn ~ 4750 3850
 NoConn ~ 4750 3750
 NoConn ~ 4750 3650
-NoConn ~ 6950 2550
 NoConn ~ 6950 2450
 $Comp
 L CONN_02X08 P1
 U 1 1 54C8095F
-P 8550 4000
-F 0 "P1" H 8550 4450 50  0000 C CNN
-F 1 "CONN_02X08" V 8550 4000 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 8550 2800 60  0001 C CNN
-F 3 "" H 8550 2800 60  0000 C CNN
-	1    8550 4000
+P 1950 5750
+F 0 "P1" H 1950 6200 50  0000 C CNN
+F 1 "CONN_02X08" V 1950 5750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x08" H 1950 4550 60  0001 C CNN
+F 3 "" H 1950 4550 60  0000 C CNN
+	1    1950 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR021
 U 1 1 54C80C62
-P 8900 4450
-F 0 "#PWR021" H 8900 4200 60  0001 C CNN
-F 1 "GND" H 8900 4300 60  0000 C CNN
-F 2 "" H 8900 4450 60  0000 C CNN
-F 3 "" H 8900 4450 60  0000 C CNN
-	1    8900 4450
+P 2300 6200
+F 0 "#PWR021" H 2300 5950 60  0001 C CNN
+F 1 "GND" H 2300 6050 60  0000 C CNN
+F 2 "" H 2300 6200 60  0000 C CNN
+F 3 "" H 2300 6200 60  0000 C CNN
+	1    2300 6200
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9400 5350
 $Comp
 L SW_PUSH SW1
 U 1 1 54C97108
-P 7750 1350
-F 0 "SW1" H 7900 1460 50  0000 C CNN
-F 1 "SW_PUSH" H 7750 1270 50  0000 C CNN
-F 2 "" H 7750 1350 60  0001 C CNN
-F 3 "http://www.newark.com/pdfs/datasheets/spc/Ta-1143.pdf" H 7750 1350 60  0001 C CNN
-F 4 "MC32882" H 7750 1350 60  0001 C CNN "Part"
-F 5 "Farnell" H 7750 1350 60  0001 C CNN "Supplier"
-	1    7750 1350
+P 7700 2200
+F 0 "SW1" H 7850 2310 50  0000 C CNN
+F 1 "SW_PUSH" H 7700 2120 50  0000 C CNN
+F 2 "" H 7700 2200 60  0001 C CNN
+F 3 "http://www.newark.com/pdfs/datasheets/spc/Ta-1143.pdf" H 7700 2200 60  0001 C CNN
+F 4 "MC32882" H 7700 2200 60  0001 C CNN "Part"
+F 5 "Farnell" H 7700 2200 60  0001 C CNN "Supplier"
+	1    7700 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -709,33 +667,15 @@ Wire Wire Line
 	5850 5600 5850 5550
 Connection ~ 5850 5550
 Wire Bus Line
-	7450 4600 7450 5100
+	3200 5450 3200 6550
 Wire Bus Line
-	7450 5100 8400 5100
+	3200 6550 4150 6550
 Wire Wire Line
 	7350 5000 6950 5000
-Wire Wire Line
-	6950 4900 7350 4900
-Wire Wire Line
-	7350 4800 6950 4800
-Wire Wire Line
-	6950 4700 7350 4700
 Wire Wire Line
 	7350 4600 6950 4600
 Wire Wire Line
 	6950 4500 7350 4500
-Wire Wire Line
-	4750 5000 4350 5000
-Wire Wire Line
-	4350 4900 4750 4900
-Wire Wire Line
-	4750 4800 4350 4800
-Wire Wire Line
-	4350 4700 4750 4700
-Wire Wire Line
-	4750 4600 4350 4600
-Wire Wire Line
-	4350 4500 4750 4500
 Wire Wire Line
 	6950 3500 7100 3500
 Wire Wire Line
@@ -875,7 +815,6 @@ Wire Wire Line
 	4500 1500 4500 1400
 Connection ~ 4500 1500
 Connection ~ 4250 1500
-Connection ~ 9250 5800
 Wire Wire Line
 	3800 2700 3800 2650
 Wire Wire Line
@@ -891,10 +830,6 @@ Wire Wire Line
 	10550 2550 10550 2450
 Wire Wire Line
 	10550 2450 10500 2450
-Wire Bus Line
-	4250 5150 4100 5150
-Wire Bus Line
-	4250 4400 4250 5150
 Wire Wire Line
 	6950 3850 8300 3850
 Wire Wire Line
@@ -910,30 +845,28 @@ Wire Wire Line
 Wire Wire Line
 	3000 3300 3000 3400
 Wire Wire Line
-	8900 3650 8900 4450
+	2300 5400 2300 6200
 Wire Wire Line
-	8900 3650 8800 3650
+	2200 5500 2300 5500
+Connection ~ 2300 5500
 Wire Wire Line
-	8800 3750 8900 3750
-Connection ~ 8900 3750
+	2300 5600 2200 5600
+Connection ~ 2300 5600
 Wire Wire Line
-	8900 3850 8800 3850
-Connection ~ 8900 3850
+	2200 5700 2300 5700
+Connection ~ 2300 5700
 Wire Wire Line
-	8800 3950 8900 3950
-Connection ~ 8900 3950
+	2300 5800 2200 5800
+Connection ~ 2300 5800
 Wire Wire Line
-	8900 4050 8800 4050
-Connection ~ 8900 4050
+	2200 5900 2300 5900
+Connection ~ 2300 5900
 Wire Wire Line
-	8800 4150 8900 4150
-Connection ~ 8900 4150
+	2300 6000 2200 6000
+Connection ~ 2300 6000
 Wire Wire Line
-	8900 4250 8800 4250
-Connection ~ 8900 4250
-Wire Wire Line
-	8800 4350 8900 4350
-Connection ~ 8900 4350
+	2200 6100 2300 6100
+Connection ~ 2300 6100
 Wire Wire Line
 	7800 3550 7750 3550
 Wire Wire Line
@@ -945,92 +878,232 @@ Wire Wire Line
 	7650 3450 7650 3650
 Connection ~ 7650 3650
 Wire Wire Line
-	6950 2250 7450 2250
+	6950 3100 7400 3100
 Wire Wire Line
-	7450 1950 7400 1950
+	7400 2800 7350 2800
 Wire Wire Line
-	7400 1950 7400 2150
+	7350 2800 7350 3000
 Wire Wire Line
-	7400 2150 6950 2150
+	7350 3000 6950 3000
 Wire Wire Line
-	6950 2050 7350 2050
+	6950 2900 7300 2900
 Wire Wire Line
-	7350 2050 7350 1650
+	7300 2900 7300 2500
 Wire Wire Line
-	7350 1650 7450 1650
+	7300 2500 7400 2500
 Wire Wire Line
-	7450 1350 7300 1350
+	7400 2200 7250 2200
 Wire Wire Line
-	7300 1350 7300 1950
+	7250 2200 7250 2800
 Wire Wire Line
-	7300 1950 6950 1950
+	7250 2800 6950 2800
 Wire Wire Line
-	8050 1350 8150 1350
+	8000 2200 8100 2200
 Wire Wire Line
-	8150 1350 8150 2400
+	8100 2200 8100 3150
 Wire Wire Line
-	8050 2250 8150 2250
-Connection ~ 8150 2250
+	8000 3100 8100 3100
+Connection ~ 8100 3100
 Wire Wire Line
-	8050 1950 8150 1950
-Connection ~ 8150 1950
+	8000 2800 8100 2800
+Connection ~ 8100 2800
 Wire Wire Line
-	8050 1650 8150 1650
-Connection ~ 8150 1650
+	8000 2500 8100 2500
+Connection ~ 8100 2500
 $Comp
 L GND #PWR022
 U 1 1 54C97F8A
-P 8150 2400
-F 0 "#PWR022" H 8150 2150 60  0001 C CNN
-F 1 "GND" H 8150 2250 60  0000 C CNN
-F 2 "" H 8150 2400 60  0000 C CNN
-F 3 "" H 8150 2400 60  0000 C CNN
-	1    8150 2400
+P 8100 3150
+F 0 "#PWR022" H 8100 2900 60  0001 C CNN
+F 1 "GND" H 8100 3000 60  0000 C CNN
+F 2 "" H 8100 3150 60  0000 C CNN
+F 3 "" H 8100 3150 60  0000 C CNN
+	1    8100 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW2
 U 1 1 54C9B3E4
-P 7750 1650
-F 0 "SW2" H 7900 1760 50  0000 C CNN
-F 1 "SW_PUSH" H 7750 1570 50  0000 C CNN
-F 2 "" H 7750 1650 60  0001 C CNN
-F 3 "http://www.newark.com/pdfs/datasheets/spc/Ta-1143.pdf" H 7750 1650 60  0001 C CNN
-F 4 "MC32882" H 7750 1650 60  0001 C CNN "Part"
-F 5 "Farnell" H 7750 1650 60  0001 C CNN "Supplier"
-	1    7750 1650
+P 7700 2500
+F 0 "SW2" H 7850 2610 50  0000 C CNN
+F 1 "SW_PUSH" H 7700 2420 50  0000 C CNN
+F 2 "" H 7700 2500 60  0001 C CNN
+F 3 "http://www.newark.com/pdfs/datasheets/spc/Ta-1143.pdf" H 7700 2500 60  0001 C CNN
+F 4 "MC32882" H 7700 2500 60  0001 C CNN "Part"
+F 5 "Farnell" H 7700 2500 60  0001 C CNN "Supplier"
+	1    7700 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW3
 U 1 1 54C9B54A
-P 7750 1950
-F 0 "SW3" H 7900 2060 50  0000 C CNN
-F 1 "SW_PUSH" H 7750 1870 50  0000 C CNN
-F 2 "" H 7750 1950 60  0001 C CNN
-F 3 "http://www.newark.com/pdfs/datasheets/spc/Ta-1143.pdf" H 7750 1950 60  0001 C CNN
-F 4 "MC32882" H 7750 1950 60  0001 C CNN "Part"
-F 5 "Farnell" H 7750 1950 60  0001 C CNN "Supplier"
-	1    7750 1950
+P 7700 2800
+F 0 "SW3" H 7850 2910 50  0000 C CNN
+F 1 "SW_PUSH" H 7700 2720 50  0000 C CNN
+F 2 "" H 7700 2800 60  0001 C CNN
+F 3 "http://www.newark.com/pdfs/datasheets/spc/Ta-1143.pdf" H 7700 2800 60  0001 C CNN
+F 4 "MC32882" H 7700 2800 60  0001 C CNN "Part"
+F 5 "Farnell" H 7700 2800 60  0001 C CNN "Supplier"
+	1    7700 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW4
 U 1 1 54C9B587
-P 7750 2250
-F 0 "SW4" H 7900 2360 50  0000 C CNN
-F 1 "SW_PUSH" H 7750 2170 50  0000 C CNN
-F 2 "" H 7750 2250 60  0001 C CNN
-F 3 "http://www.newark.com/pdfs/datasheets/spc/Ta-1143.pdf" H 7750 2250 60  0001 C CNN
-F 4 "MC32882" H 7750 2250 60  0001 C CNN "Part"
-F 5 "Farnell" H 7750 2250 60  0001 C CNN "Supplier"
-	1    7750 2250
+P 7700 3100
+F 0 "SW4" H 7850 3210 50  0000 C CNN
+F 1 "SW_PUSH" H 7700 3020 50  0000 C CNN
+F 2 "" H 7700 3100 60  0001 C CNN
+F 3 "http://www.newark.com/pdfs/datasheets/spc/Ta-1143.pdf" H 7700 3100 60  0001 C CNN
+F 4 "MC32882" H 7700 3100 60  0001 C CNN "Part"
+F 5 "Farnell" H 7700 3100 60  0001 C CNN "Supplier"
+	1    7700 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 2350 7250 2350
+	4350 5000 4750 5000
 Text Label 9500 2450 0    60   ~ 0
 JUMPER
-Text Label 7100 2350 0    60   ~ 0
+Text Label 4350 5000 0    60   ~ 0
 JUMPER
+$Comp
+L ATXMEGA256A3BU-A IC1
+U 1 1 54B11B55
+P 5850 3550
+F 0 "IC1" H 4900 5350 40  0000 L BNN
+F 1 "ATXMEGA256A3BU-A" H 6250 1650 40  0000 L BNN
+F 2 "Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm" H 5850 3550 35  0000 C CIN
+F 3 "" H 5850 3550 60  0000 C CNN
+F 4 "ATXMEGA256A3BU-A" H 5850 3550 60  0001 C CNN "Part"
+F 5 "Farnell" H 5850 3550 60  0001 C CNN "Supplier"
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4900 7350 4900
+Wire Wire Line
+	7350 4800 6950 4800
+Wire Wire Line
+	6950 4700 7350 4700
+Wire Wire Line
+	4750 3850 4500 3850
+Wire Wire Line
+	4500 3950 4750 3950
+Wire Wire Line
+	4750 4050 4500 4050
+Wire Wire Line
+	6950 2150 7050 2150
+Wire Wire Line
+	7050 2050 6950 2050
+Wire Wire Line
+	6950 1950 7050 1950
+Entry Wire Line
+	3100 6350 3200 6450
+Entry Wire Line
+	3100 6250 3200 6350
+Entry Wire Line
+	3100 6150 3200 6250
+Entry Wire Line
+	3100 5850 3200 5950
+Entry Wire Line
+	3100 5750 3200 5850
+Entry Wire Line
+	3100 5650 3200 5750
+Entry Wire Line
+	3100 5550 3200 5650
+Entry Wire Line
+	3100 5450 3200 5550
+Entry Wire Line
+	3100 5350 3200 5450
+Wire Wire Line
+	3100 5350 2800 5350
+Wire Wire Line
+	2800 5450 3100 5450
+Wire Wire Line
+	3100 5550 2800 5550
+Wire Wire Line
+	2800 5650 3100 5650
+Wire Wire Line
+	3100 5750 2800 5750
+Wire Wire Line
+	2800 5850 3100 5850
+Wire Wire Line
+	2800 5950 3100 5950
+Wire Wire Line
+	2800 6050 3100 6050
+Wire Wire Line
+	2800 6150 3100 6150
+Wire Wire Line
+	2800 6250 3100 6250
+Wire Wire Line
+	2800 6350 3100 6350
+Wire Wire Line
+	2800 6450 3100 6450
+Text Label 2800 5350 0    60   ~ 0
+~OE1
+Text Label 2800 5450 0    60   ~ 0
+~OE2
+Text Label 2800 5550 0    60   ~ 0
+~OE3
+Text Label 2800 5650 0    60   ~ 0
+~OE4
+Text Label 2800 5750 0    60   ~ 0
+~OE5
+Text Label 2800 5850 0    60   ~ 0
+~OE6
+Text Label 2800 5950 0    60   ~ 0
+~OE7
+Text Label 2800 6050 0    60   ~ 0
+~OE8
+Text Label 2800 6150 0    60   ~ 0
+~OE9
+Text Label 2800 6250 0    60   ~ 0
+~OE10
+Text Label 2800 6350 0    60   ~ 0
+~OE11
+Text Label 2800 6450 0    60   ~ 0
+~OE12
+NoConn ~ 4750 4900
+NoConn ~ 4750 4800
+NoConn ~ 4750 4700
+NoConn ~ 4750 4600
+NoConn ~ 4750 4500
+NoConn ~ 6950 2650
+NoConn ~ 6950 2550
+NoConn ~ 6950 2350
+NoConn ~ 6950 2250
+Wire Wire Line
+	2200 5400 2300 5400
+Text Label 1450 5400 0    60   ~ 0
+SDA
+Text Label 1450 5500 0    60   ~ 0
+SCL
+Text Label 1450 6100 0    60   ~ 0
+RX
+Text Label 1450 6000 0    60   ~ 0
+TX
+Text Label 1450 5900 0    60   ~ 0
+~CS
+Text Label 1450 5800 0    60   ~ 0
+MOSI
+Text Label 1450 5700 0    60   ~ 0
+MISO
+Text Label 1450 5600 0    60   ~ 0
+SCK
+Wire Wire Line
+	1450 5400 1700 5400
+Wire Wire Line
+	1700 5500 1450 5500
+Wire Wire Line
+	1450 5600 1700 5600
+Wire Wire Line
+	1700 5700 1450 5700
+Wire Wire Line
+	1450 5800 1700 5800
+Wire Wire Line
+	1700 5900 1450 5900
+Wire Wire Line
+	1450 6000 1700 6000
+Wire Wire Line
+	1700 6100 1450 6100
 $EndSCHEMATC
