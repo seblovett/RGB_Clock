@@ -1,4 +1,4 @@
-(module SD43 (layer F.Cu) (tedit 54C95911)
+(module SD43 (layer F.Cu) (tedit 54D79723)
   (fp_text reference SD43 (at -0.05 2.95) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

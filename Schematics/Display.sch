@@ -31,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:pca9685
 LIBS:avr_jtag_header
-LIBS:linear-technology
 LIBS:Root-cache
 EELAYER 25 0
 EELAYER END
