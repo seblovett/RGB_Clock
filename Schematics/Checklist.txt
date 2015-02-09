@@ -1,0 +1,65 @@
+=Checklist=
+
+==Footprints==
+===LT8612===
+Checked. All okay. 
+
+===Battery Holder===
+Pads were too far apart. Corrected.
+
+===Programming Header===
+Pads were incorrect size. Changed to what Samtec suggest
+
+===Inductor===
+All okay.
+
+===Oscillator===
+All okay.
+
+===LED===
+Does not match recommended land pattern due to space constraints. Need to ensure all tracks connect well and can carry current.
+
+===AVR===
+Standard footprint. Correct pitch and size.
+
+===Switches===
+All okay.
+
+
+==Layout==
+===Vin===
+Vin track is appropriately sized for expected currents.
+
+===SMPS===
+Matches the recommended layout reasonably well.
+
+===Vpp Connections===
+11 connections
+Total LED current:
+R=0.05A=3A
+B=0.025A=1.5A
+G=0.025A=1.5A
+=6A/11 = 0.55A
+For 10C rise - 0.13mm track. We have 0.5mm so plenty. Maybe too big but not demanding on space. 
+
+===LED Driving circuit===
+The OE can be PWM driven to globally dim - unfortunately don't have enough PWM on the uC so not worth it. 
+I2C addresses are okay - the is a sub call function in the devices that by default will clash with the assigned, however, this feature is off by default.
+
+Current out of GND pin (max):
+5xRed=0.250
+5xBlue=0.125
+5xGreen=0.125
+Total: 0.5A
+0.3mm via is good to an Amp.
+Got four on each GND pin. Safe.
+
+===Grounding paths===
+This is a big problem. I cannot see the return path for some of the LED drivers. Need to sort this. 
+
+
+===Microcontroller Circuit===
+Quite simple here. Got some connectors, passives and switches. 
+Decoupling - okay.
+all load caps are correct. 
+Routing is acceptable. some caps could be closer, but not too fussed. 
