@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # @file leds.py
 # Date Created: Sat 10 Jan 2015 16:32:28 GMT by seblovett on seblovett-Ubuntu
-# <+Last Edited: Sun 11 Jan 2015 10:40:04 GMT by seblovett on seblovett-Ubuntu +>
+# <+Last Edited: Thu 19 Feb 2015 21:12:53 GMT by seblovett on seblovett-Ubuntu +>
 # @author seblovett
 # @brief A brief description of this codo
 from pcbnew import *
 import math
 #all measurements are in nanometers.... 
-ORIGIN = [105500000, 85200000] 
-DIST = -40000000
+ORIGIN = [210000000,148500000] 
+DIST = -90000000
 
 def LEDtoLoc(led, count=60.0):
 	
@@ -28,16 +28,16 @@ mod = pcb.GetModules()
 while mod:
 	if(mod.GetReference().startswith("LED")):
 		#print mod.GetReference()
-		#n = float(mod.GetReference()[3:])
-		#mod.SetPosition(LEDtoLoc(n))
-		#mod.SetOrientation(LEDtoAngle(n))
-		mod.SetLocked(True)
+		n = float(mod.GetReference()[3:])
+		mod.SetPosition(LEDtoLoc(n))
+		mod.SetOrientation(LEDtoAngle(n))
+		#mod.SetLocked(True)
 	if(mod.GetReference().startswith("U")):
-		mod.SetLocked(False)
+		#mod.SetLocked(False)
 		n = float(mod.GetReference()[1:])
 		if(n < 13.0):
 			mod.SetPosition(LEDtoLoc(n*5-2))
-		mod.SetLocked(True)
+		#mod.SetLocked(True)
 	mod = mod.Next()
 #while(mod.GetReference != "LED1"):
 #	mod = mod.Next()
