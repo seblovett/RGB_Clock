@@ -167,30 +167,6 @@ Text Label 9800 1150 0    60   ~ 0
 SDA
 Text Label 9800 1250 0    60   ~ 0
 SCL
-Text Label 7750 2300 0    60   ~ 0
-~OE2
-Text Label 7750 3200 0    60   ~ 0
-~OE3
-Text Label 7750 4100 0    60   ~ 0
-~OE4
-Text Label 7750 5000 0    60   ~ 0
-~OE5
-Text Label 7750 5900 0    60   ~ 0
-~OE6
-Text Label 9800 1450 0    60   ~ 0
-~OE7
-Text Label 9800 2350 0    60   ~ 0
-~OE8
-Text Label 9800 3250 0    60   ~ 0
-~OE9
-Text Label 9800 4150 0    60   ~ 0
-~OE10
-Text Label 9800 5050 0    60   ~ 0
-~OE11
-Text Label 9800 5950 0    60   ~ 0
-~OE12
-Text Label 7750 1400 0    60   ~ 0
-~OE1
 $Comp
 L CONN_01X06 P8
 U 1 1 551091E7
@@ -789,84 +765,110 @@ Wire Wire Line
 	5850 3350 6700 3350
 Wire Wire Line
 	5850 3500 6700 3500
-Wire Bus Line
-	6300 3200 5850 3200
-Wire Bus Line
-	6300 2000 6300 3200
-Entry Wire Line
-	6300 3100 6400 3200
-Entry Wire Line
-	6300 3000 6400 3100
-Entry Wire Line
-	6300 2700 6400 2800
-Entry Wire Line
-	6300 2600 6400 2700
-Entry Wire Line
-	6300 2500 6400 2600
-Entry Wire Line
-	6300 2400 6400 2500
-Entry Wire Line
-	6300 2300 6400 2400
-Entry Wire Line
-	6300 2200 6400 2300
-Entry Wire Line
-	6300 2100 6400 2200
-Entry Wire Line
-	6300 2900 6400 3000
-Entry Wire Line
-	6300 2800 6400 2900
-Entry Wire Line
-	6300 2000 6400 2100
-Wire Wire Line
-	6400 3200 6700 3200
-Wire Wire Line
-	6700 3100 6400 3100
-Wire Wire Line
-	6700 3000 6400 3000
-Wire Wire Line
-	6700 2900 6400 2900
-Wire Wire Line
-	6700 2800 6400 2800
-Wire Wire Line
-	6700 2700 6400 2700
-Wire Wire Line
-	6700 2600 6400 2600
-Wire Wire Line
-	6700 2500 6400 2500
-Wire Wire Line
-	6700 2400 6400 2400
-Wire Wire Line
-	6700 2300 6400 2300
-Wire Wire Line
-	6700 2200 6400 2200
-Wire Wire Line
-	6700 2100 6400 2100
-Text Label 6700 2100 0    60   ~ 0
-~OE1
-Text Label 6700 2200 0    60   ~ 0
-~OE2
-Text Label 6700 2300 0    60   ~ 0
-~OE3
-Text Label 6700 2400 0    60   ~ 0
-~OE4
-Text Label 6700 2500 0    60   ~ 0
-~OE5
-Text Label 6700 2600 0    60   ~ 0
-~OE6
-Text Label 6700 2700 0    60   ~ 0
-~OE7
-Text Label 6700 2800 0    60   ~ 0
-~OE8
-Text Label 6700 2900 0    60   ~ 0
-~OE9
-Text Label 6700 3000 0    60   ~ 0
-~OE10
-Text Label 6700 3100 0    60   ~ 0
-~OE11
-Text Label 6700 3200 0    60   ~ 0
-~OE12
 Text Label 6700 3350 0    60   ~ 0
 SDA
 Text Label 6700 3500 0    60   ~ 0
 SCL
+Wire Bus Line
+	6700 3200 5850 3200
+Wire Bus Line
+	6700 2000 6700 3200
+Text Label 6050 3200 0    60   ~ 0
+~OE[1..12]
+Entry Wire Line
+	6700 3100 6800 3200
+Wire Wire Line
+	6800 3200 7000 3200
+Text Label 7750 1400 0    60   ~ 0
+~OE1
+Entry Wire Line
+	6700 3000 6800 3100
+Entry Wire Line
+	6700 2900 6800 3000
+Entry Wire Line
+	6700 2800 6800 2900
+Entry Wire Line
+	6700 2700 6800 2800
+Entry Wire Line
+	6700 2600 6800 2700
+Entry Wire Line
+	6700 2500 6800 2600
+Entry Wire Line
+	6700 2400 6800 2500
+Entry Wire Line
+	6700 2300 6800 2400
+Entry Wire Line
+	6700 2200 6800 2300
+Entry Wire Line
+	6700 2100 6800 2200
+Entry Wire Line
+	6700 2000 6800 2100
+Wire Wire Line
+	6800 2100 7000 2100
+Wire Wire Line
+	7000 2200 6800 2200
+Wire Wire Line
+	6800 2300 7000 2300
+Wire Wire Line
+	7000 2400 6800 2400
+Wire Wire Line
+	7000 2500 6800 2500
+Wire Wire Line
+	7000 2600 6800 2600
+Wire Wire Line
+	7000 2700 6800 2700
+Wire Wire Line
+	7000 2800 6800 2800
+Wire Wire Line
+	7000 2900 6800 2900
+Wire Wire Line
+	7000 3000 6800 3000
+Wire Wire Line
+	6800 3100 7000 3100
+Text Label 7000 2100 0    60   ~ 0
+~OE1
+Text Label 7000 2200 0    60   ~ 0
+~OE2
+Text Label 7000 2300 0    60   ~ 0
+~OE3
+Text Label 7000 2400 0    60   ~ 0
+~OE4
+Text Label 7000 2500 0    60   ~ 0
+~OE5
+Text Label 7000 2600 0    60   ~ 0
+~OE6
+Text Label 7000 2700 0    60   ~ 0
+~OE7
+Text Label 7000 2800 0    60   ~ 0
+~OE8
+Text Label 7000 2900 0    60   ~ 0
+~OE9
+Text Label 7000 3000 0    60   ~ 0
+~OE10
+Text Label 7000 3100 0    60   ~ 0
+~OE11
+Text Label 7000 3200 0    60   ~ 0
+~OE12
+Text Label 7750 2300 0    60   ~ 0
+~OE2
+Text Label 7750 3200 0    60   ~ 0
+~OE3
+Text Label 7750 4100 0    60   ~ 0
+~OE4
+Text Label 7750 5000 0    60   ~ 0
+~OE5
+Text Label 7750 5900 0    60   ~ 0
+~OE6
+Text Label 9800 1450 0    60   ~ 0
+~OE7
+Text Label 9800 2350 0    60   ~ 0
+~OE8
+Text Label 9800 3250 0    60   ~ 0
+~OE9
+Text Label 9800 4150 0    60   ~ 0
+~OE10
+Text Label 9800 5050 0    60   ~ 0
+~OE11
+Text Label 9800 5950 0    60   ~ 0
+~OE12
 $EndSCHEMATC
