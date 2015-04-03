@@ -128,29 +128,29 @@ F 3 "" H 5850 5600 60  0000 C CNN
 	1    5850 5600
 	1    0    0    -1  
 $EndComp
-Text Label 7050 4500 0    60   ~ 0
+Text Label 7050 2350 0    60   ~ 0
 ~OE1
-Text Label 7050 4600 0    60   ~ 0
-~OE2
-Text Label 7050 4700 0    60   ~ 0
-~OE3
-Text Label 7050 4800 0    60   ~ 0
-~OE4
-Text Label 7050 4900 0    60   ~ 0
-~OE5
-Text Label 7050 5000 0    60   ~ 0
-~OE6
-Text Label 4500 3850 0    60   ~ 0
-~OE7
-Text Label 4500 3950 0    60   ~ 0
-~OE8
-Text Label 4500 4050 0    60   ~ 0
-~OE9
-Text Label 7050 1950 0    60   ~ 0
-~OE10
-Text Label 7050 2050 0    60   ~ 0
-~OE11
 Text Label 7050 2150 0    60   ~ 0
+~OE2
+Text Label 7050 2050 0    60   ~ 0
+~OE3
+Text Label 7050 1950 0    60   ~ 0
+~OE4
+Text Label 4500 4250 0    60   ~ 0
+~OE5
+Text Label 4350 4800 0    60   ~ 0
+~OE6
+Text Label 7050 5000 0    60   ~ 0
+~OE7
+Text Label 7050 4900 0    60   ~ 0
+~OE8
+Text Label 7050 4800 0    60   ~ 0
+~OE9
+Text Label 7050 2650 0    60   ~ 0
+~OE10
+Text Label 7050 2550 0    60   ~ 0
+~OE11
+Text Label 7050 2450 0    60   ~ 0
 ~OE12
 Entry Wire Line
 	3100 5950 3200 6050
@@ -553,23 +553,9 @@ F 3 "" H 9850 1850 60  0000 C CNN
 	1    9850 1850
 	1    0    0    -1  
 $EndComp
-Text Label 7050 4350 0    60   ~ 0
-SCK
-Text Label 7050 4250 0    60   ~ 0
-MISO
-Text Label 7050 4150 0    60   ~ 0
-MOSI
-Text Label 7050 4050 0    60   ~ 0
-~CS
-Text Label 7050 3950 0    60   ~ 0
-TX
-Text Label 7050 3850 0    60   ~ 0
-RX
-NoConn ~ 4750 4250
 NoConn ~ 4750 4150
 NoConn ~ 4750 3750
 NoConn ~ 4750 3650
-NoConn ~ 6950 2450
 NoConn ~ 9400 5350
 $Comp
 L SW_PUSH SW1
@@ -597,26 +583,14 @@ Wire Wire Line
 Wire Wire Line
 	9050 1700 9050 1900
 Wire Wire Line
-	9050 1300 9250 1300
-Wire Wire Line
-	9250 1300 9400 1300
+	9050 1300 9400 1300
 Wire Wire Line
 	9250 1300 9250 1200
 Connection ~ 9250 1300
 Wire Wire Line
 	5550 1650 5550 1600
 Wire Wire Line
-	5550 1600 5650 1600
-Wire Wire Line
-	5650 1600 5750 1600
-Wire Wire Line
-	5750 1600 5800 1600
-Wire Wire Line
-	5800 1600 5850 1600
-Wire Wire Line
-	5850 1600 5950 1600
-Wire Wire Line
-	5950 1600 6150 1600
+	5550 1600 6150 1600
 Wire Wire Line
 	6150 1600 6150 1650
 Wire Wire Line
@@ -637,17 +611,7 @@ Connection ~ 5800 1600
 Wire Wire Line
 	5600 5500 5600 5550
 Wire Wire Line
-	5600 5550 5700 5550
-Wire Wire Line
-	5700 5550 5800 5550
-Wire Wire Line
-	5800 5550 5850 5550
-Wire Wire Line
-	5850 5550 5900 5550
-Wire Wire Line
-	5900 5550 6000 5550
-Wire Wire Line
-	6000 5550 6100 5550
+	5600 5550 6100 5550
 Wire Wire Line
 	6100 5550 6100 5500
 Wire Wire Line
@@ -666,35 +630,9 @@ Wire Wire Line
 	5850 5600 5850 5550
 Connection ~ 5850 5550
 Wire Bus Line
-	3200 5450 3200 5550
-Wire Bus Line
-	3200 5550 3200 5650
-Wire Bus Line
-	3200 5650 3200 5750
-Wire Bus Line
-	3200 5750 3200 5850
-Wire Bus Line
-	3200 5850 3200 5950
-Wire Bus Line
-	3200 5950 3200 6050
-Wire Bus Line
-	3200 6050 3200 6150
-Wire Bus Line
-	3200 6150 3200 6250
-Wire Bus Line
-	3200 6250 3200 6350
-Wire Bus Line
-	3200 6350 3200 6450
-Wire Bus Line
-	3200 6450 3200 6550
+	3200 5450 3200 6550
 Wire Bus Line
 	3200 6550 4150 6550
-Wire Wire Line
-	7350 5000 6950 5000
-Wire Wire Line
-	7350 4600 6950 4600
-Wire Wire Line
-	6950 4500 7350 4500
 Wire Wire Line
 	6950 3500 7100 3500
 Wire Wire Line
@@ -714,9 +652,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 3350 8900 3350
 Wire Wire Line
-	9350 3600 9350 3650
-Wire Wire Line
-	9350 3650 9350 3750
+	9350 3600 9350 3750
 Wire Wire Line
 	9350 3650 9450 3650
 Wire Wire Line
@@ -727,18 +663,14 @@ Wire Wire Line
 Wire Wire Line
 	4250 1950 4750 1950
 Wire Wire Line
-	4000 2550 4200 2550
-Wire Wire Line
-	4200 2550 4750 2550
+	4000 2550 4750 2550
 Connection ~ 4200 2550
 Wire Wire Line
 	4200 2550 4200 2650
 Wire Wire Line
 	3400 2550 3400 2650
 Wire Wire Line
-	3250 2550 3400 2550
-Wire Wire Line
-	3400 2550 3600 2550
+	3250 2550 3600 2550
 Connection ~ 3400 2550
 Wire Wire Line
 	4500 2750 4750 2750
@@ -752,18 +684,14 @@ Wire Wire Line
 Wire Wire Line
 	3150 3400 3150 3500
 Wire Wire Line
-	3000 3400 3150 3400
-Wire Wire Line
-	3150 3400 3350 3400
+	3000 3400 3350 3400
 Connection ~ 3150 3400
 Wire Wire Line
 	3950 3800 3950 3900
 Wire Wire Line
 	3150 3800 3150 3900
 Wire Wire Line
-	3750 3400 3950 3400
-Wire Wire Line
-	3950 3400 4750 3400
+	3750 3400 4750 3400
 Wire Wire Line
 	3000 3300 4750 3300
 Wire Wire Line
@@ -775,13 +703,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 5550 9400 5550
 Wire Wire Line
-	10450 5350 10450 5450
-Wire Wire Line
-	10450 5450 10450 5650
-Wire Wire Line
-	10450 5650 10450 5750
-Wire Wire Line
-	10450 5750 10450 5850
+	10450 5350 10450 5850
 Wire Wire Line
 	10450 5350 10400 5350
 Wire Wire Line
@@ -796,9 +718,7 @@ Connection ~ 10450 5750
 Wire Wire Line
 	9400 5650 9250 5650
 Wire Wire Line
-	9250 5650 9250 5750
-Wire Wire Line
-	9250 5750 9250 5850
+	9250 5650 9250 5850
 Wire Wire Line
 	9400 5750 9250 5750
 Connection ~ 9250 5750
@@ -815,17 +735,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 950  4250 1050
 Wire Wire Line
-	4250 950  4500 950 
-Wire Wire Line
-	4500 950  4750 950 
-Wire Wire Line
-	4750 950  4900 950 
-Wire Wire Line
-	4900 950  5000 950 
-Wire Wire Line
-	5000 950  5250 950 
-Wire Wire Line
-	5250 950  5500 950 
+	4250 950  5500 950 
 Wire Wire Line
 	5500 950  5500 1050
 Wire Wire Line
@@ -844,21 +754,11 @@ Wire Wire Line
 	4900 900  4900 950 
 Connection ~ 4900 950 
 Wire Wire Line
-	4250 1350 4250 1500
+	4250 1350 4250 1600
 Wire Wire Line
-	4250 1500 4250 1600
+	4250 1500 5500 1500
 Wire Wire Line
-	5500 1500 5250 1500
-Wire Wire Line
-	5250 1500 5000 1500
-Wire Wire Line
-	5000 1500 4750 1500
-Wire Wire Line
-	4750 1500 4500 1500
-Wire Wire Line
-	4500 1500 4250 1500
-Wire Wire Line
-	5500 1350 5500 1500
+	5500 1500 5500 1350
 Wire Wire Line
 	5250 1350 5250 1500
 Connection ~ 5250 1500
@@ -879,9 +779,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 1850 9850 2000
 Wire Wire Line
-	9500 2450 9850 2450
-Wire Wire Line
-	9850 2450 9900 2450
+	9500 2450 9900 2450
 Wire Wire Line
 	9850 2300 9850 2450
 Connection ~ 9850 2450
@@ -890,35 +788,13 @@ Wire Wire Line
 Wire Wire Line
 	10550 2450 10500 2450
 Wire Wire Line
-	6950 3850 7350 3850
-Wire Wire Line
-	6950 3950 7350 3950
-Wire Wire Line
-	6950 4050 7350 4050
-Wire Wire Line
-	6950 4150 7350 4150
-Wire Wire Line
-	6950 4250 7350 4250
-Wire Wire Line
-	6950 4350 7350 4350
-Wire Wire Line
 	3000 3300 3000 3400
 Wire Wire Line
 	7350 3750 7350 3750
 Wire Wire Line
-	6950 3100 7300 3100
-Wire Wire Line
-	7300 3000 6950 3000
-Wire Wire Line
-	6950 2900 7300 2900
-Wire Wire Line
-	7300 2800 6950 2800
-Wire Wire Line
 	2200 2600 2300 2600
 Wire Wire Line
-	2300 2600 2300 2900
-Wire Wire Line
-	2300 2900 2300 3050
+	2300 2600 2300 3050
 Wire Wire Line
 	2200 2900 2300 2900
 Connection ~ 2300 2900
@@ -935,37 +811,14 @@ F 5 "Farnell" H 1900 2900 60  0001 C CNN "Supplier"
 	1    1900 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4350 5000 4750 5000
 Text Label 9500 2450 0    60   ~ 0
 JUMPER
-Text Label 4350 5000 0    60   ~ 0
+Text Label 4350 4700 0    60   ~ 0
 JUMPER
-$Comp
-L ATXMEGA256A3BU-A IC1
-U 1 1 54B11B55
-P 5850 3550
-F 0 "IC1" H 4900 5350 40  0000 L BNN
-F 1 "ATXMEGA256A3BU-A" H 6250 1650 40  0000 L BNN
-F 2 "Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm" H 5850 3550 35  0000 C CIN
-F 3 "" H 5850 3550 60  0000 C CNN
-F 4 "ATXMEGA256A3BU-A" H 5850 3550 60  0001 C CNN "Part"
-F 5 "Farnell" H 5850 3550 60  0001 C CNN "Supplier"
-	1    5850 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 4900 7350 4900
 Wire Wire Line
 	7350 4800 6950 4800
-Wire Wire Line
-	6950 4700 7350 4700
-Wire Wire Line
-	4750 3850 4500 3850
-Wire Wire Line
-	4500 3950 4750 3950
-Wire Wire Line
-	4750 4050 4500 4050
 Wire Wire Line
 	6950 2150 7050 2150
 Wire Wire Line
@@ -1039,14 +892,8 @@ Text Label 2800 6350 0    60   ~ 0
 Text Label 2800 6450 0    60   ~ 0
 ~OE12
 NoConn ~ 4750 4900
-NoConn ~ 4750 4800
-NoConn ~ 4750 4700
 NoConn ~ 4750 4600
 NoConn ~ 4750 4500
-NoConn ~ 6950 2650
-NoConn ~ 6950 2550
-NoConn ~ 6950 2350
-NoConn ~ 6950 2250
 $Comp
 L JUMPER JP3
 U 1 1 54CE2ADC
@@ -1058,14 +905,10 @@ F 3 "" H 1200 3000 60  0000 C CNN
 	1    1200 3000
 	1    0    0    -1  
 $EndComp
-Text Label 7050 2800 0    60   ~ 0
+Text Label 7050 3850 0    60   ~ 0
 SW1
-Text Label 7050 2900 0    60   ~ 0
+Text Label 7050 2250 0    60   ~ 0
 SW2
-Text Label 7050 3000 0    60   ~ 0
-SW3
-Text Label 7050 3100 0    60   ~ 0
-SW4
 $Comp
 L JUMPER JP2
 U 1 1 54CE4F7B
@@ -1086,9 +929,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 3000 1500 3000
 Wire Wire Line
-	1550 2800 1550 2900
-Wire Wire Line
-	1550 2900 1550 3000
+	1550 2800 1550 3000
 Wire Wire Line
 	1550 2900 1600 2900
 Wire Wire Line
@@ -1109,14 +950,63 @@ Wire Wire Line
 Wire Wire Line
 	9400 1300 9400 1400
 $Comp
-L GND #PWR046
+L GND #PWR045
 U 1 1 54C97F8A
 P 2300 3050
-F 0 "#PWR046" H 2300 2800 60  0001 C CNN
+F 0 "#PWR045" H 2300 2800 60  0001 C CNN
 F 1 "GND" H 2300 2900 60  0000 C CNN
 F 2 "" H 2300 3050 60  0000 C CNN
 F 3 "" H 2300 3050 60  0000 C CNN
 	1    2300 3050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 4700 4750 4700
+NoConn ~ 4750 5000
+Wire Wire Line
+	4350 4800 4750 4800
+Wire Wire Line
+	7350 5000 6950 5000
+Wire Wire Line
+	6950 2650 7300 2650
+Wire Wire Line
+	6950 2550 7300 2550
+Wire Wire Line
+	6950 2450 7300 2450
+Wire Wire Line
+	7300 2350 6950 2350
+NoConn ~ 4750 3950
+NoConn ~ 4750 4050
+NoConn ~ 6950 4700
+NoConn ~ 6950 4600
+NoConn ~ 6950 4500
+NoConn ~ 6950 3100
+NoConn ~ 6950 3000
+$Comp
+L ATXMEGA256A3BU-A IC1
+U 1 1 54B11B55
+P 5850 3550
+F 0 "IC1" H 4900 5350 40  0000 L BNN
+F 1 "ATXMEGA256A3BU-A" H 6250 1650 40  0000 L BNN
+F 2 "Housings_QFP:TQFP-64_14x14mm_Pitch0.8mm" H 5850 3550 35  0000 C CIN
+F 3 "" H 5850 3550 60  0000 C CNN
+F 4 "ATXMEGA256A3BU-A" H 5850 3550 60  0001 C CNN "Part"
+F 5 "Farnell" H 5850 3550 60  0001 C CNN "Supplier"
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4250 4750 4250
+NoConn ~ 4750 3850
+Wire Wire Line
+	6950 3850 7350 3850
+Wire Wire Line
+	6950 2250 7300 2250
+NoConn ~ 6950 2800
+NoConn ~ 6950 2900
+NoConn ~ 6950 4350
+NoConn ~ 6950 4250
+NoConn ~ 6950 4150
+NoConn ~ 6950 4050
+NoConn ~ 6950 3950
 $EndSCHEMATC

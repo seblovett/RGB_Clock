@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by Cvpcb 0.201503291001+5547~22~ubuntu14.04.1-product   date = Sun 29 Mar 2015 21:50:33 BST
+
+BeginCmp
+TimeStamp = /54B2B528;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E65A97;
+Reference = P1;
+ValeurCmp = CONN_01X04;
+IdModule  = JST-SH:JST-BM-04B-SRSS-TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E66603;
+Reference = P2;
+ValeurCmp = CONN_01X04;
+IdModule  = JST-SH:JST-BM-04B-SRSS-TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E664CC;
+Reference = P3;
+ValeurCmp = CONN_01X04;
+IdModule  = JST-SH:JST-BM-04B-SRSS-TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E6697B;
+Reference = P4;
+ValeurCmp = CONN_01X04;
+IdModule  = JST-SH:JST-BM-04B-SRSS-TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E669A8;
+Reference = P5;
+ValeurCmp = CONN_01X04;
+IdModule  = JST-SH:JST-BM-04B-SRSS-TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /5518737A;
+Reference = P6;
+ValeurCmp = CONN_01X06;
+IdModule  = JST-SH:JST-BM-06B-SRSS-TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /55183FC2;
+Reference = R1;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55184271;
+Reference = R2;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551842B3;
+Reference = R3;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551842E1;
+Reference = R4;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55184443;
+Reference = R5;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55184449;
+Reference = R6;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5518444F;
+Reference = R7;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55184455;
+Reference = R8;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B2B708;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551881F6;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55188272;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551874A3;
+Reference = U1;
+ValeurCmp = PCA9685;
+IdModule  = Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm;
+EndCmp
+
+EndListe
