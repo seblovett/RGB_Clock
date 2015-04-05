@@ -1,10 +1,6 @@
-update=Sun 29 Mar 2015 18:49:07 BST
+update=Sun 05 Apr 2015 12:12:53 BST
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -63,3 +59,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=JST-SH
 LibName32=pca9685
+[general]
+version=1
