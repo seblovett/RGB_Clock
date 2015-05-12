@@ -56,19 +56,8 @@ typedef struct
 	uint8_t LED_ON_H;
 	uint8_t LED_OFF_L;
 	uint8_t LED_OFF_H;
-} LED_Reg_t;
+} LED_t;
 
-typedef struct
-{
-	uint16_t LED_ON;
-	uint16_t LED_OFF;
-	} LED_Data_t;
-
-typedef union 
-{
-	LED_Reg_t Regs;
-	LED_Data_t Data;
-	} LED_t;
 
 // Functions
 uint8_t PCA9685_Init(uint8_t Addr);

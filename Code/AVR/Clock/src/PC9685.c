@@ -38,7 +38,7 @@ uint8_t Set_LED(uint8_t Addr, uint8_t LED, LED_t settings)
 		.addr[0]         = 0,      // TWI slave memory address data
 		.addr_length  = sizeof (uint8_t),    // TWI slave memory address data size
 		.chip         = Addr,      // TWI slave bus address
-		.buffer       = (void *)&(settings.Regs), // transfer data source buffer
+		.buffer       = (void *)&(settings), // transfer data source buffer
 		.length       = 4  // transfer data size (bytes)
 	};
 	packet_write.addr[0] = LED_Base_Addr(LED);

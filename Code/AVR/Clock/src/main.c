@@ -33,6 +33,16 @@
 #include <string.h>
 #include "PCA9685.h"
 #include <util/delay.h>
+#include "rtc32_driver.h"
+#include "vbat.h"
+
+void vbat_init(void)
+{
+	vbat_reset();
+	vbat_enable_xosc(0);
+	RTC32_Initialize(0xffffffff, 0, 2 );
+	RTC32_SetCompareIntLevel(RTC32_COMPINTLVL_LO_gc);
+}
 
 int main (void)
 {
@@ -55,12 +65,14 @@ int main (void)
 	
 	PCA9685_Init(0x78);
 	LED_t LED = {
-		.Regs.LED_OFF_H = 0,
-		.Regs.LED_OFF_L = 0,
-		.Regs.LED_ON_H = 0,
-		.Regs.LED_ON_L = 0,
+		.LED_OFF_H = 0,
+		.LED_OFF_L = 0,
+		.LED_ON_H = 0,
+		.LED_ON_L = 0,
 	};
 	Set_LED(0x78, 6, LED);
+	
+	vbat_init();
 	
 	/*
 	
