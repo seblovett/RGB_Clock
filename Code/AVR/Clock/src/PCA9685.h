@@ -50,6 +50,7 @@
 
 
 //structs
+#pragma pack(1)  
 typedef struct
 {
 	uint8_t LED_ON_L;
@@ -57,12 +58,39 @@ typedef struct
 	uint8_t LED_OFF_L;
 	uint8_t LED_OFF_H;
 } LED_t;
+#pragma pack()  
 
+#pragma pack(1)  
+//memory map of chip
+typedef struct// __attribute__ ((packed)) 
+{
+	uint8_t MODE1; 
+	uint8_t MODE2;
+	uint8_t SUBADR1;
+	uint8_t SUBADR2;
+	uint8_t SUBADR3;
+	uint8_t ALLCALLADR;
+	LED_t LEDS[16];
+	LED_t ALL_LED;
+	uint8_t PRE_SCALE;
+	uint8_t TestMode;
+	} PCA9685A_t;
 
+#pragma pack()
 // Functions
 uint8_t PCA9685_Init(uint8_t Addr);
 
 uint8_t Set_LED(uint8_t Addr, uint8_t LED, LED_t settings);
+
+uint8_t PCA9685_WriteConfig(uint8_t Addr, PCA9685A_t *device);
+
+uint8_t PCA9685_WriteLEDS(uint8_t Addr, PCA9685A_t *device);
+
+uint8_t PCA9685_WriteAllLED(uint8_t Addr, PCA9685A_t *device);
+
+uint8_t PCA9685_GetRegs(uint8_t Addr, PCA9685A_t *device);
+
+// Inline Functions
 
 inline uint8_t LED_Base_Addr(uint8_t LED)
 {

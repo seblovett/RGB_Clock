@@ -70,7 +70,7 @@ int main (void)
 		.LED_ON_H = 0,
 		.LED_ON_L = 0,
 	};
-	Set_LED(0x78, 6, LED);
+	//Set_LED(0x78, 6, LED);
 	
 	vbat_init();
 	
@@ -116,14 +116,29 @@ int main (void)
 	//OSC.CTRL
 	
 	//RTC32.SYNCCTRL |= RTC32_SYNCCNT_bm;
-	
+	PCA9685A_t d; 
+	d.MODE1 = 0x11;
+	d.MODE2 = 0x22;
+	d.SUBADR1 = 0x33;
+	d.SUBADR2 = 0x44;
+	d.SUBADR3 = 0x55;
+	d.ALLCALLADR = 0x66;
+	PCA9685_WriteConfig(0x78, &d);
+	for (a = 0; a < 16; a++)
+	{
+		d.LEDS[a].LED_ON_L = 0x10 | a;
+		d.LEDS[a].LED_ON_H = 0x20 | a;
+		d.LEDS[a].LED_OFF_L = 0x40 | a;
+		d.LEDS[a].LED_OFF_H = 0x80 | a;
+	}
+	PCA9685_WriteLEDS(0x78, &d);
 	while(1)
 	{
 		//time = rtc_get_time();
 		//sprintf(buffer, "\r\rTime = %d", time);
 		//USART_WRITEPACKET(buffer);
 		LED.LED_OFF_L ++;
-		Set_LED(0x78, 6, LED);
+		//Set_LED(0x78, 6, LED);
 		_delay_ms(10);
 		//USART_PUTCHAR('A');
 	}

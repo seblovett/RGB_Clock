@@ -44,3 +44,30 @@ uint8_t Set_LED(uint8_t Addr, uint8_t LED, LED_t settings)
 	packet_write.addr[0] = LED_Base_Addr(LED);
 	return twi_master_write(&TWIC, &packet_write);
 }
+
+
+uint8_t PCA9685_WriteConfig(uint8_t Addr, PCA9685A_t *device)
+{
+	twi_package_t packet_write = {
+		.addr[0]         = 0,      // TWI slave memory address data
+		.addr_length  = sizeof (uint8_t),    // TWI slave memory address data size
+		.chip         = Addr,      // TWI slave bus address
+		.buffer       = (void *)(device), // transfer data source buffer
+		.length       = 6  // transfer data size (bytes)
+	};
+	return twi_master_write(&TWIC, &packet_write);
+}
+
+uint8_t PCA9685_WriteLEDS(uint8_t Addr, PCA9685A_t *device)
+{
+	twi_package_t packet_write = {
+		.addr[0]         = 0,      // TWI slave memory address data
+		.addr_length  = sizeof (uint8_t),    // TWI slave memory address data size
+		.chip         = Addr,      // TWI slave bus address
+		//.buffer       = (void *)(device + REG_LED0_ON_L), // transfer data source buffer
+		.length       = 16 * 4  // transfer data size (bytes)
+	};
+	packet_write.buffer = (void * )device;
+	packet_write.buffer += REG_LED0_ON_L; //offset the pointer
+	return twi_master_write(&TWIC, &packet_write);
+}

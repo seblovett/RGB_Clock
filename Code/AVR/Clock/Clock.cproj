@@ -350,7 +350,7 @@
     <Compile Include="src\avr_compiler.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\PC9685.c">
+    <Compile Include="src\PCA9685.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\PCA9685.h">
